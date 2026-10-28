@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacidade e cookies | Índigo Rei</title>
+<meta name="description" content="Como o site da Índigo Rei mede visitas e cliques, o que é guardado e como mudar sua escolha de cookies.">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta name="theme-color" content="#041E3A">
+<style>
+@font-face{font-family:"Marcellus";src:url(fontes/marcellus-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-300.woff2) format("woff2");font-weight:300;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-500.woff2) format("woff2");font-weight:500;font-display:swap}
+:root{--noite:#062D56;--abismo:#041E3A;--nevoa:#EDF2F6;--texto:#1B2F45;--texto-2:#4A5F75;--claro:#F2F5F8;--ouro:#C89C36;--ouro-2:#E0B85C;--serif:"Marcellus",Georgia,serif;--sans:"Poppins",system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--nevoa);color:var(--texto);font:400 1.0625rem/1.75 var(--sans)}
+a{color:var(--noite)}
+:focus-visible{outline:2px solid var(--ouro);outline-offset:3px}
+.topo{background:var(--abismo);padding:16px max(16px,4vw)}
+.topo img{height:40px;width:auto;display:block}
+main{max-width:720px;margin:0 auto;padding:clamp(2.5rem,7vw,5rem) max(16px,4vw) 5rem}
+h1,h2{font-family:var(--serif);font-weight:400;color:var(--noite);text-wrap:balance;margin:0}
+h1{font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.1;margin-bottom:1rem}
+h2{font-size:1.5rem;margin:2.6rem 0 .6rem}
+p,li{color:var(--texto-2)}
+ul{padding-left:1.2rem}
+li{margin-bottom:.5rem}
+.lead{font-size:1.15rem;font-weight:300;color:var(--texto)}
+.caixa{margin-top:2.6rem;padding:1.4rem 1.5rem;border-radius:14px;background:#fff;border:1px solid rgba(6,45,86,.12)}
+.caixa p{margin:0 0 1rem}
+.botao{display:inline-flex;align-items:center;min-height:46px;padding:.6rem 1.3rem;border-radius:999px;border:0;background:var(--ouro);color:var(--abismo);font:500 1rem var(--sans);cursor:pointer}
+.botao:hover{background:var(--ouro-2)}
+#resposta{margin:.9rem 0 0;font-weight:500;color:var(--noite)}
+.voltar{display:inline-block;margin-top:3rem}
+small{display:block;margin-top:3rem;color:var(--texto-2)}
+</style>
+</head>
+<body>
+<header class="topo"><a href="./" aria-label="Voltar ao site da Índigo Rei"><img src="img/logo-claro-420.webp" alt="Índigo Rei" width="420" height="107"></a></header>
+<main>
+  <h1>Privacidade e cookies</h1>
+  <p class="lead">O site da Índigo Rei existe para as famílias conhecerem o nosso trabalho e falarem com a gente. Para saber se ele cumpre esse papel, medimos as visitas e os cliques nos botões, sempre com o mínimo de informação.</p>
+
+  <h2>O que o site registra</h2>
+  <ul>
+    <li><strong>Contagem de cliques, feita por nós.</strong> Quando alguém toca num botão de WhatsApp, do cadastro, do Instagram, do mapa, do e-mail ou num vídeo, anotamos qual foi a ação, em que parte do site estava o botão, o serviço (quando o botão é de um serviço), se o aparelho é celular ou computador e o nome do site de onde a visita veio, como instagram.com ou google.com. Não guardamos nome, telefone, e-mail nem qualquer dado que identifique quem visitou, e essa contagem não usa cookies.</li>
+    <li><strong>Cloudflare Web Analytics.</strong> Conta as visitas às páginas de forma agregada, sem cookies e sem identificar quem visita.</li>
+    <li><strong>Google Analytics, só se você aceitar.</strong> Usa cookies para medir visitas e a navegação no site. Esses dados são tratados pelo Google e guardados por até 14 meses. Se você recusar, o site funciona do mesmo jeito.</li>
+  </ul>
+
+  <h2>WhatsApp, cadastro e outros contatos</h2>
+  <p>Os botões de WhatsApp abrem uma conversa com uma mensagem pronta. Nada é enviado até você tocar em enviar no seu WhatsApp. O cadastro das famílias fica em uma página própria, cadastro.indigorei.com.br, que explica como os dados do cadastro são usados e pede a autorização de vocês.</p>
+
+  <h2>Seus direitos</h2>
+  <p>Pela Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você pode pedir informações, correção ou exclusão de dados pelo e-mail <a href="mailto:institutoindigorei@gmail.com">institutoindigorei@gmail.com</a>.</p>
+
+  <div class="caixa">
+    <p><strong>Sua escolha de cookies neste aparelho:</strong> <span id="escolha">não definida</span>.</p>
+    <button type="button" class="botao" id="mudar">Mudar minha escolha</button>
+    <p id="resposta" role="status"></p>
+  </div>
+
+  <a class="voltar" href="./">Voltar para o site</a>
+  <small>Atualizado em outubro de 2026.</small>
+</main>
+<script>
+(function () {
+  var CHAVE = 'indigo-cookies';
+  function ler() { try { return localStorage.getItem(CHAVE); } catch (e) { return null; } }
+  var rotulo = document.getElementById('escolha');
+  var v = ler();
+  rotulo.textContent = v === 'sim' ? 'aceitou os cookies do Google Analytics' : v === 'nao' ? 'recusou os cookies do Google Analytics' : 'ainda não escolheu';
+  document.getElementById('mudar').addEventListener('click', function () {
+    try { localStorage.removeItem(CHAVE); } catch (e) {}
+    rotulo.textContent = 'ainda não escolheu';
+    document.getElementById('resposta').textContent = 'Pronto. Ao voltar para o site, o aviso de cookies aparece de novo para você escolher.';
+  });
+})();
+</script>
+</body>
+</html>

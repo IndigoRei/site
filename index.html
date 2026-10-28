@@ -1,0 +1,1011 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Índigo Rei, escola de inteligências em Brasília</title>
+<meta name="description" content="Instituto Índigo Rei, escola de inteligências em Brasília. Educação integral e multidisciplinar para crianças e jovens, com olhar especializado para altas habilidades, superdotação e dupla excepcionalidade.">
+
+<link rel="canonical" href="https://indigorei.com.br/">
+<meta name="theme-color" content="#041E3A">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Índigo Rei">
+<meta property="og:title" content="Índigo Rei, educação para crianças únicas">
+<meta property="og:description" content="Escola de inteligências em Brasília. Educação integral para crianças e jovens, com olhar especializado para altas habilidades e dupla excepcionalidade.">
+<meta property="og:url" content="https://indigorei.com.br/">
+<meta property="og:image" content="https://indigorei.com.br/img/compartilhar.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="preload" href="fontes/marcellus-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fontes/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js');window.__revelar=setTimeout(function(){document.documentElement.classList.add('revelado')},4000)</script>
+<style>
+@font-face{font-family:"Marcellus";src:url(fontes/marcellus-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-300.woff2) format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-500.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+
+:root{
+  /* marca: azul-marinho do logo, cores dos raios da íris, madeira das fotos */
+  --noite:#062D56;
+  --abismo:#041E3A;
+  --nevoa:#EDF2F6;
+  --branco:#FFFFFF;
+  --texto:#1B2F45;
+  --texto-2:#4A5F75;
+  --claro:#F2F5F8;
+  --claro-2:#B3C4D5;
+  --ouro:#C89C36;
+  --ouro-2:#E0B85C;
+  --coral:#E58E76;
+  --petroleo:#3F7F93;
+  --rosa:#C38696;
+  --ceu:#8FB3CF;
+  --serif:"Marcellus","Iowan Old Style",Georgia,serif;
+  --sans:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  /* tipos: sete tamanhos fazem todo o trabalho */
+  --t-display:clamp(2.8rem,min(6.1vw,10.5svh),5.9rem);
+  --t-titulo:clamp(1.85rem,calc(4.4vw + .4rem),3.8rem);
+  --t-frase:clamp(1.5rem,2.4vw,2.125rem);
+  --t-sub:1.375rem;
+  --t-lead:clamp(1.15rem,1.55vw,1.3rem);
+  --t-corpo:1.0625rem;
+  --t-pequeno:.9375rem;
+  /* movimento: duas curvas para o site inteiro */
+  --ease-out:cubic-bezier(.23,1,.32,1);
+  --ease-in-out:cubic-bezier(.77,0,.175,1);
+  --lado:clamp(16px,4vw,56px);
+  --largura:1240px;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--abismo);color:var(--texto);font-family:var(--sans);font-weight:400;font-size:var(--t-corpo);line-height:1.7;overflow-x:hidden}
+a,button{-webkit-tap-highlight-color:transparent}
+img,video,svg{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ouro-2);outline-offset:3px;border-radius:2px}
+.pular{position:absolute;left:-9999px;top:8px;z-index:200;background:var(--branco);color:var(--noite);padding:.7rem 1rem;border-radius:6px;text-decoration:none;font-weight:500}
+.pular:focus{left:16px}
+.contem{max-width:var(--largura);margin-inline:auto;padding-inline:var(--lado)}
+section[id]{scroll-margin-top:62px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;text-wrap:balance}
+h2{font-size:var(--t-titulo);line-height:1.08;letter-spacing:-.01em}
+h3{font-size:var(--t-sub);line-height:1.2}
+p{margin:0 0 1.1em;max-width:62ch}
+.lead{font-size:var(--t-lead);font-weight:300;line-height:1.62}
+.secao{padding-block:clamp(4.5rem,10vw,8.5rem)}
+.escuro{background:var(--noite);color:var(--claro)}
+.escuro .suave{color:var(--claro-2)}
+.claro{background:var(--nevoa);color:var(--texto)}
+.claro .suave{color:var(--texto-2)}
+.branco{background:var(--branco);color:var(--texto)}
+.branco .suave{color:var(--texto-2)}
+.aurea{display:grid;grid-template-columns:minmax(0,1.618fr) minmax(0,1fr);gap:clamp(2.5rem,6vw,6.5rem);align-items:start}
+@media (max-width:880px){.aurea{grid-template-columns:minmax(0,1fr)}}
+
+/* botões */
+.botao{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:48px;padding:.75rem 1.35rem;border-radius:999px;border:0;font:500 var(--t-pequeno)/1.2 var(--sans);text-decoration:none;cursor:pointer;transition:background-color .2s ease,color .2s ease,scale .16s var(--ease-out)}
+.botao svg{width:20px;height:20px;flex:none}
+.botao-ouro{background:var(--ouro);color:var(--abismo)}
+.botao-linha{background:rgba(242,245,248,.12);color:var(--claro)}
+.botao-marinho{background:var(--noite);color:var(--claro)}
+
+/* topo */
+.topo{position:fixed;inset:0 0 auto 0;z-index:60;display:flex;align-items:center;gap:1.75rem;padding:12px var(--lado);padding-top:max(12px,env(safe-area-inset-top));color:var(--claro);transition:background-color .3s ease}
+.topo.solido{background:rgba(4,30,58,.97)}
+.topo-logo{display:block;flex:none}
+.topo-logo img{height:42px;width:auto}
+.topo nav{margin-left:auto;display:flex;gap:1.6rem}
+.topo nav a{font-size:var(--t-pequeno);color:var(--claro-2);text-decoration:none;padding-block:.4rem;transition:color .2s ease}
+.topo .botao{min-height:42px;padding:.5rem 1.05rem}
+.menu-botao{display:none;margin-left:auto;background:none;border:0;width:44px;height:44px;padding:10px;cursor:pointer}
+.menu-botao span{display:block;height:2px;background:var(--claro);border-radius:2px;transition:transform .26s var(--ease-in-out),opacity .2s ease}
+.menu-botao span+span{margin-top:6px}
+.menu-botao[aria-expanded="true"] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.menu-botao[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menu-botao[aria-expanded="true"] span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+.menu{position:fixed;inset:0;z-index:55;background:var(--abismo);padding:96px var(--lado) 32px;display:flex;flex-direction:column;gap:.25rem;overflow-y:auto}
+.menu[hidden]{display:none}
+.menu{transition:opacity .22s var(--ease-out)}
+@starting-style{.menu{opacity:0}}
+.menu a{--i:0;transition:opacity .34s var(--ease-out),translate .34s var(--ease-out),scale .16s var(--ease-out),background-color .2s ease;transition-delay:calc(var(--i) * 35ms),calc(var(--i) * 35ms),0s,0s}
+.menu a:nth-child(2){--i:1}.menu a:nth-child(3){--i:2}.menu a:nth-child(4){--i:3}.menu a:nth-child(5){--i:4}.menu a:nth-child(6){--i:5}.menu a:nth-child(7){--i:6}
+@starting-style{.menu a{opacity:0;translate:0 12px}}
+.menu a:not(.botao){font-family:var(--serif);font-size:var(--t-titulo);line-height:1.25;color:var(--claro);text-decoration:none;padding:.35rem 0}
+.menu .botao{margin-top:1.5rem;align-self:flex-start}
+@media (max-width:1020px){
+  .topo nav,.topo .botao{display:none}
+  .menu-botao{display:block}
+}
+
+/* abertura: a íris se abre e o filme do espaço toma a tela */
+.abertura{position:relative;height:220svh;background:var(--abismo);color:var(--claro)}
+.palco{position:sticky;top:0;height:100svh;overflow:hidden;--cx:70vw;--cy:50svh;--d:80svh}
+.filme{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;clip-path:circle(calc(var(--d) * .2) at var(--cx) var(--cy));transition:opacity 1s var(--ease-out) .3s}
+.js .filme{opacity:0}
+.js.pronto .filme{opacity:1}
+.veu{position:absolute;inset:0;pointer-events:none;opacity:0;background:linear-gradient(180deg,rgba(6,12,20,.55) 0%,rgba(6,12,20,0) 26%,rgba(6,12,20,0) 52%,rgba(6,12,20,.85) 100%)}
+.iris{position:absolute;left:calc(var(--cx) - var(--d) / 2);top:calc(var(--cy) - var(--d) / 2);width:var(--d);height:var(--d);overflow:visible;pointer-events:none;will-change:transform,opacity}
+.iris line{stroke-linecap:round;stroke-width:.9}
+/* a íris se abre uma vez, girando como um diafragma: só transform e opacity, sem repintar os raios */
+@keyframes abrirIris{from{opacity:0;transform:rotate(-24deg) scale(.82)}to{opacity:1;transform:none}}
+@keyframes surgir{from{opacity:0}to{opacity:1}}
+.js:not(.pronto) .iris{visibility:hidden}
+.js.pronto .iris{animation:abrirIris 1.5s var(--ease-out) backwards}
+.abertura-texto{position:absolute;left:var(--lado);top:50%;transform:translateY(-50%);width:min(40vw,580px);will-change:opacity,transform}
+.abertura h1{font-size:var(--t-display);line-height:1.02;letter-spacing:-.012em}
+.abertura-texto p{margin:1.4rem 0 0;color:var(--claro-2);max-width:42ch}
+.abertura .acoes{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}
+.abertura-legenda{position:absolute;left:var(--lado);right:var(--lado);bottom:clamp(2.25rem,8svh,5rem);margin:0;max-width:26ch;font-family:var(--serif);font-size:var(--t-frase);line-height:1.2;color:var(--claro);opacity:0}
+.dica{position:absolute;left:50%;bottom:max(1.25rem,env(safe-area-inset-bottom));transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;font-size:var(--t-pequeno);color:var(--claro-2);opacity:.85;transition:opacity .8s var(--ease-out) 1.4s}
+.js .dica{opacity:0}
+.dica::after{content:"";width:3px;height:22px;border-radius:2px;background:var(--claro-2);animation:descer 1.8s var(--ease-in-out) infinite}
+@keyframes descer{0%{transform:translateY(-6px);opacity:0}35%{opacity:1}100%{transform:translateY(8px);opacity:0}}
+.js.pronto .dica{opacity:.85}
+@media (max-aspect-ratio:4/5),(max-width:700px){
+  .abertura-texto{top:auto;bottom:max(1.75rem,calc(env(safe-area-inset-bottom) + 1rem));transform:none;left:var(--lado);right:var(--lado);width:auto}
+  .abertura h1{font-size:clamp(2.6rem,11.5vw,4rem)}
+  .abertura-texto p{font-size:var(--t-corpo);margin-top:1rem}
+  .abertura .acoes{margin-top:1.4rem}
+  .dica{display:none}
+}
+@media (max-width:700px) and (max-height:740px){
+  .abertura h1{font-size:clamp(2.3rem,10vw,3rem)}
+  .abertura-texto p{font-size:var(--t-pequeno);line-height:1.6}
+  .abertura .botao-linha{display:none}
+}
+.estatico .abertura{height:auto}
+.estatico .palco{position:relative;min-height:100svh}
+
+/* manifesto */
+.manifesto h2{line-height:1.06}
+.manifesto .aurea{margin-top:clamp(2.5rem,5vw,4rem)}
+.verbos{margin:clamp(4rem,9vw,7rem) 0 0;font-family:var(--serif);font-size:var(--t-frase);line-height:1.3;max-width:34ch;color:var(--claro)}
+
+/* abordagem */
+.abordagem h3{margin:2.6rem 0 .8rem;color:var(--noite)}
+.pilares{list-style:none;margin:2.5rem 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.75rem}
+.pilares li::before,.linha-tempo li::before{content:"";display:block;width:32px;height:4px;border-radius:2px;background:var(--cor,var(--petroleo));margin-bottom:1rem}
+.pilares strong{display:block;font-family:var(--serif);font-weight:400;font-size:var(--t-sub);color:var(--noite);margin-bottom:.35rem}
+.pilares span{font-size:var(--t-pequeno);color:var(--texto-2)}
+@media (max-width:700px){.pilares{grid-template-columns:minmax(0,1fr);gap:1.25rem}}
+
+/* vídeos */
+.video-cartao{margin:0}
+.video-moldura{position:relative;aspect-ratio:9/16;width:100%;max-width:380px;background:var(--abismo);border-radius:4px;overflow:hidden}
+.video-moldura video{width:100%;height:100%;object-fit:cover}
+.tocar{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;border:0;background:none;cursor:pointer}
+.tocar span{display:flex;align-items:center;justify-content:center;width:76px;height:76px;border-radius:50%;background:rgba(242,245,248,.92);color:var(--noite);transition:scale .16s var(--ease-out)}
+.tocar svg{width:28px;height:28px;margin-left:4px}
+.video-cartao figcaption{margin-top:1rem;max-width:380px}
+.video-cartao figcaption strong{display:block;font-family:var(--serif);font-weight:400;font-size:var(--t-sub);line-height:1.3}
+.video-cartao figcaption span{font-size:var(--t-pequeno)}
+.claro .video-cartao figcaption strong{color:var(--noite)}
+
+/* serviços */
+.servicos-topo{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:1rem 3rem;margin-bottom:clamp(2.5rem,5vw,4rem)}
+.servicos-topo p{margin:0;max-width:44ch}
+.servicos{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.618fr);gap:clamp(2rem,5vw,5rem);align-items:start}
+.abas{display:flex;flex-direction:column;gap:.25rem}
+.aba{display:grid;grid-template-columns:4px 1fr;column-gap:1.1rem;text-align:left;background:none;border:0;padding:1rem 1rem 1rem 0;cursor:pointer;color:var(--claro-2);border-radius:0 10px 10px 0;transition:background-color .2s ease,color .2s ease,scale .16s var(--ease-out)}
+.aba::before{content:"";grid-row:1 / span 2;background:var(--cor);border-radius:4px;opacity:.45;transition:opacity .2s ease}
+.aba strong{font-family:var(--serif);font-weight:400;font-size:var(--t-sub);line-height:1.2;color:var(--claro)}
+.aba small{font-size:var(--t-pequeno);line-height:1.5}
+.aba[aria-selected="true"]{background:rgba(242,245,248,.08);color:var(--claro)}
+.aba[aria-selected="true"]::before{opacity:1}
+.painel{border-top:4px solid var(--cor);transition:opacity .26s var(--ease-out),translate .26s var(--ease-out)}
+.painel[hidden]{display:none}
+@starting-style{.painel{opacity:0;translate:0 10px}}
+.painel-foto{aspect-ratio:16/8;overflow:hidden;background:var(--abismo)}
+.painel-foto img{width:100%;height:100%;object-fit:cover}
+.lista-servicos{list-style:none;margin:0;padding:0}
+.lista-servicos li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.4rem 2rem;align-items:start;padding:1.6rem 0 .4rem}
+.lista-servicos h3{grid-column:1}
+.lista-servicos p{grid-column:1;margin:0;color:var(--claro-2);max-width:56ch}
+.lista-servicos .perguntar{grid-column:2;grid-row:1 / span 2;align-self:center;display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:.5rem 1.05rem;border-radius:999px;background:rgba(242,245,248,.1);font-size:var(--t-pequeno);font-weight:500;text-decoration:none;white-space:nowrap;color:var(--claro);transition:background-color .2s ease,scale .16s var(--ease-out)}
+.lista-servicos .perguntar svg{width:18px;height:18px}
+@media (max-width:880px){
+  .servicos{grid-template-columns:minmax(0,1fr)}
+  .abas{flex-direction:row;overflow-x:auto;gap:.5rem;margin-inline:calc(var(--lado) * -1);padding-inline:var(--lado);scrollbar-width:none}
+  .abas::-webkit-scrollbar{display:none}
+  .aba{flex:none;grid-template-columns:1fr;padding:.7rem 1.15rem;border-radius:999px;background:rgba(242,245,248,.08)}
+  .aba::before{display:none}
+  .aba small{display:none}
+  .aba strong{font-size:var(--t-corpo);white-space:nowrap}
+  .aba[aria-selected="true"]{background:var(--claro);color:var(--noite)}
+  .aba[aria-selected="true"] strong{color:var(--noite)}
+  .lista-servicos li{grid-template-columns:minmax(0,1fr)}
+  .lista-servicos .perguntar{grid-column:1;grid-row:auto;justify-self:start;margin-top:.6rem}
+}
+
+/* espaço */
+.espaco{background:var(--abismo);color:var(--claro);padding-block:clamp(4.5rem,10vw,8.5rem) clamp(3rem,6vw,5rem)}
+.simbolos{list-style:none;margin:clamp(2.5rem,5vw,3.5rem) 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2rem}
+.simbolos svg{display:block;width:auto;height:52px;max-width:84px;color:var(--ouro);margin-bottom:1.1rem}
+.ser-indigo{margin:clamp(3.5rem,7vw,5.5rem) 0 0;font-family:var(--serif);font-size:var(--t-frase);line-height:1.3;color:var(--claro);max-width:30ch}
+.ser-indigo .s1{color:var(--rosa)}.ser-indigo .s3{color:var(--ceu)}
+.simbolos strong{display:block;font-family:var(--serif);font-weight:400;font-size:var(--t-sub);margin-bottom:.35rem}
+.simbolos span{display:block;font-size:var(--t-pequeno);color:var(--claro-2);line-height:1.6}
+@media (max-width:980px){.simbolos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.simbolos{grid-template-columns:minmax(0,1fr)}}
+.galeria{margin-top:clamp(3.5rem,7vw,5.5rem)}
+.trilho{--margem:max(var(--lado),calc((100% - var(--largura)) / 2 + var(--lado)));display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--margem);padding-inline:var(--margem);padding-bottom:6px;scrollbar-width:none;overscroll-behavior-x:contain}
+.trilho::-webkit-scrollbar{display:none}
+.quadro{flex:none;margin:0;scroll-snap-align:start}
+.quadro button{display:block;padding:0;border:0;background:none;cursor:zoom-in;transition:scale .16s var(--ease-out)}
+.quadro img{height:min(66svh,640px);width:auto;object-fit:cover;background:#0B2A4D;border-radius:4px}
+.quadro figcaption{margin-top:.7rem;font-size:var(--t-pequeno);color:var(--claro-2)}
+@media (max-width:700px){.quadro img{height:min(58svh,440px)}}
+.trilho-rodape{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:1.5rem}
+.trilho-rodape p{margin:0;font-size:var(--t-pequeno);color:var(--claro-2)}
+.setas{display:flex;gap:.5rem}
+.seta{width:48px;height:48px;border-radius:50%;border:0;background:rgba(242,245,248,.1);color:var(--claro);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background-color .2s ease,scale .16s var(--ease-out)}
+.seta svg{width:20px;height:20px}
+.visor{width:100vw;height:100svh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:rgba(2,14,28,.96);color:var(--claro);
+  opacity:1;scale:1;transition:opacity .24s var(--ease-out),scale .24s var(--ease-out),overlay .24s allow-discrete,display .24s allow-discrete}
+.visor:not([open]){opacity:0;scale:.97}
+@starting-style{.visor[open]{opacity:0;scale:.97}}
+.visor::backdrop{background:rgba(2,14,28,.9);opacity:1;transition:opacity .24s var(--ease-out),overlay .24s allow-discrete,display .24s allow-discrete}
+.visor:not([open])::backdrop{opacity:0}
+@starting-style{.visor[open]::backdrop{opacity:0}}
+#visor-img{transition:opacity .18s var(--ease-out)}
+.visor figure{margin:0;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 72px 24px}
+.visor img{max-width:100%;max-height:calc(100svh - 140px);width:auto;height:auto;object-fit:contain}
+.visor figcaption{margin-top:.9rem;color:var(--claro-2);font-size:var(--t-pequeno)}
+.visor .seta{position:absolute;top:50%;transform:translateY(-50%)}
+.visor .anterior{left:14px}
+.visor .proxima{right:14px}
+.visor .fechar{position:absolute;top:14px;right:14px;transform:none}
+@media (max-width:700px){.visor figure{padding:64px 12px 84px}.visor .seta{top:auto;bottom:18px;transform:none}.visor .anterior{left:calc(50% - 56px)}.visor .proxima{right:calc(50% - 56px)}}
+
+/* história */
+.linha-tempo{list-style:none;margin:clamp(3rem,6vw,4.5rem) 0 0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0}
+.linha-tempo li{padding:0 1.5rem 0 0}
+.linha-tempo b{display:block;font-family:var(--serif);font-weight:400;font-size:var(--t-sub);line-height:1.1;color:var(--noite);margin-bottom:.55rem}
+.linha-tempo span{display:block;font-size:var(--t-pequeno);line-height:1.6;color:var(--texto-2)}
+@media (max-width:1020px){.linha-tempo{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:2.25rem}}
+@media (max-width:620px){
+  .linha-tempo{grid-template-columns:minmax(0,1fr);row-gap:2rem}
+  .linha-tempo li{padding:0}
+}
+.hoje{margin:clamp(3.5rem,7vw,5.5rem) 0 0;font-family:var(--serif);font-size:var(--t-frase);line-height:1.3;color:var(--noite);max-width:34ch}
+.rosa{margin-top:clamp(4.5rem,9vw,7rem);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.618fr);gap:clamp(2.5rem,6vw,6rem);align-items:center}
+.rosa .video-moldura{margin-inline:auto}
+.rosa .video-cartao figcaption{margin-inline:auto}
+.rosa h3{font-size:var(--t-frase);color:var(--noite);margin-bottom:1.1rem}
+.rosa blockquote{margin:2rem 0 0;padding-left:1.4rem;border-left:4px solid var(--rosa);font-family:var(--serif);font-size:var(--t-sub);line-height:1.4;color:var(--noite);max-width:30ch}
+@media (max-width:880px){.rosa{grid-template-columns:minmax(0,1fr)}.rosa .video-cartao{order:2}}
+
+/* equipe */
+.equipe-foto{margin:clamp(2.5rem,5vw,4rem) 0 0}
+.equipe-foto img{width:100%;height:auto;border-radius:4px}
+.equipe-foto figcaption{margin-top:.8rem;font-size:var(--t-pequeno);color:var(--texto-2)}
+.pessoas{list-style:none;margin:clamp(3.5rem,7vw,5.5rem) 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,17rem),1fr));gap:clamp(2.75rem,4vw,3.5rem) clamp(1.5rem,3vw,2.5rem)}
+.pessoa:not(.com-foto){padding-top:1.1rem;border-top:2px solid var(--cor-pessoa,var(--ouro))}
+.pessoa-foto{aspect-ratio:4/5;background:var(--nevoa);border-radius:4px;overflow:hidden;display:grid;place-items:center;color:var(--ouro);margin-bottom:1.15rem}
+.pessoa-foto img{width:100%;height:100%;object-fit:cover}
+.pessoa-foto svg{width:38%;height:auto;opacity:.55}
+.pessoa-nome{margin:0;font-family:var(--serif);font-weight:400;font-size:var(--t-sub);line-height:1.2;color:var(--noite)}
+.pessoa-papel{margin:.35rem 0 0;font-size:var(--t-pequeno);line-height:1.5;color:var(--texto-2)}
+.registro{display:block;margin-top:.15rem;font-size:.875rem;letter-spacing:.01em}
+.pessoa-bio{margin:.95rem 0 0;font-size:var(--t-pequeno);line-height:1.68;max-width:38ch}
+.ver-equipe{display:inline-flex;align-items:center;min-height:48px;margin-top:2rem;padding:.75rem 1.4rem;border:1px solid var(--noite);border-radius:999px;background:none;color:var(--noite);font:500 var(--t-pequeno)/1 var(--sans);cursor:pointer}
+.ver-equipe[hidden]{display:none}
+.ver-equipe:focus-visible{outline:2px solid var(--ouro);outline-offset:3px}
+@media (max-width:700px){.js .pessoas.recolhida > li:nth-child(n+7){display:none}}
+.gestao{margin-top:clamp(4rem,8vw,6rem);padding-top:clamp(2.5rem,5vw,3.5rem);border-top:1px solid var(--nevoa)}
+.gestao h3{color:var(--noite)}
+.gestao .pessoas{margin-top:clamp(2rem,4vw,2.75rem)}
+@media (max-width:560px){
+  .pessoas{grid-template-columns:minmax(0,1fr);gap:2.25rem}
+  .pessoa.com-foto{display:grid;grid-template-columns:6.5rem minmax(0,1fr);column-gap:1.1rem;align-items:center}
+  .pessoa-foto{margin:0}
+  .pessoa-nome{font-size:1.25rem}
+  .pessoa-bio{grid-column:1 / -1;margin-top:1rem;max-width:none}
+}
+
+/* visita */
+.visita h2{line-height:1.04}
+.visita .acoes{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2.2rem}
+.visita .botao-ouro{min-height:56px;padding:.9rem 1.6rem;font-size:var(--t-corpo)}
+.contatos{list-style:none;margin:0;padding:0;display:grid;gap:2rem}
+.contatos small{display:block;font-size:var(--t-pequeno);color:var(--claro-2);margin-bottom:.2rem}
+.contatos a{text-decoration-color:rgba(242,245,248,.35);text-underline-offset:3px;transition:text-decoration-color .2s ease}
+.contatos address{font-style:normal}
+.rodape{background:var(--abismo);color:var(--claro-2);padding:3rem 0 calc(5.5rem + env(safe-area-inset-bottom));font-size:var(--t-pequeno)}
+.rodape .contem{display:flex;flex-wrap:wrap;gap:1.5rem 3rem;align-items:center;justify-content:space-between}
+.rodape img{height:44px;width:auto}
+.rodape nav{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem}
+.rodape a{text-decoration:none;transition:color .2s ease}
+
+/* aviso de cookies: só aparece quando o Google Analytics está ligado, e só depois da primeira rolagem */
+.aviso-cookies{position:fixed;left:max(16px,env(safe-area-inset-left));bottom:max(16px,env(safe-area-inset-bottom));z-index:70;width:min(380px,calc(100vw - 32px));padding:1rem 1.1rem;border-radius:14px;background:#0B2A4D;color:var(--claro);box-shadow:0 24px 50px -20px rgba(2,14,28,.75);transition:opacity .32s var(--ease-out),translate .32s var(--ease-out)}
+@starting-style{.aviso-cookies{opacity:0;translate:0 16px}}
+@media (min-width:700px){.aviso-cookies{left:auto;right:max(16px,env(safe-area-inset-right))}}
+.aviso-cookies[hidden]{display:none}
+.aviso-cookies p{margin:0 0 .85rem;font-size:var(--t-pequeno);line-height:1.55;color:var(--claro-2)}
+.aviso-cookies a{color:var(--claro)}
+.aviso-acoes{display:flex;flex-wrap:wrap;gap:.6rem}
+.aviso-acoes .botao{min-height:44px;padding:.55rem 1.2rem}
+.com-aviso .wa-flutuante{visibility:hidden}
+
+/* WhatsApp sempre à mão */
+.wa-flutuante{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:40;display:flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:50%;background:var(--ouro);color:var(--abismo);text-decoration:none;box-shadow:0 14px 30px -12px rgba(2,14,28,.6);transform:translateY(160%);transition:transform .45s var(--ease-out),background-color .2s ease,scale .16s var(--ease-out)}
+.wa-flutuante svg{width:28px;height:28px}
+.wa-flutuante.visivel{transform:none}
+.wa-flutuante span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* toque: tudo que é apertável afunda um pouco ao ser tocado */
+.botao:active,.lista-servicos .perguntar:active,.seta:active,.wa-flutuante:active,.aba:active{scale:.97}
+.tocar:active span{scale:.94}
+.quadro button:active{scale:.985}
+
+/* hover só onde existe mouse: no celular o toque não deixa o estado preso */
+@media (hover:hover) and (pointer:fine){
+  .botao-ouro:hover,.wa-flutuante:hover{background:var(--ouro-2)}
+  .botao-linha:hover,.seta:hover{background:rgba(242,245,248,.2)}
+  .botao-marinho:hover{background:#0B3A6B}
+  .topo nav a:hover,.rodape a:hover{color:var(--claro)}
+  .tocar:hover span{scale:1.06}
+  .aba:hover{background:rgba(242,245,248,.05)}
+  .lista-servicos .perguntar:hover{background:rgba(200,156,54,.24)}
+  .contatos a:hover{text-decoration-color:var(--ouro)}
+}
+
+/* entradas: cada parte da seção sobe e aparece uma vez, em sequência */
+.js .revelar{opacity:0;transform:translateY(24px)}
+.js .revelar.visto{opacity:1;transform:none;transition:opacity .8s var(--ease-out) var(--atraso,0ms),transform .8s var(--ease-out) var(--atraso,0ms)}
+.revelado .revelar{opacity:1!important;transform:none!important}
+
+/* movimento reduzido: fica o esmaecer, sai o deslocamento */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js.pronto .iris{animation:surgir .5s ease-out backwards}
+  .dica::after{animation:none}
+  .js .revelar{transform:none}
+  .js .revelar.visto{transition:opacity .4s ease var(--atraso,0ms)}
+  .botao:active,.lista-servicos .perguntar:active,.seta:active,.wa-flutuante:active,.aba:active,.tocar:active span,.quadro button:active{scale:none}
+  .tocar:hover span{scale:none}
+  .wa-flutuante{transform:none;opacity:0;pointer-events:none;transition:opacity .2s ease,background-color .2s ease}
+  .wa-flutuante.visivel{opacity:1;pointer-events:auto}
+  .visor,.visor:not([open]){scale:1}
+  @starting-style{.painel,.menu a,.aviso-cookies{translate:none}.visor[open]{scale:1}}
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"Instituto Índigo Rei","alternateName":"Índigo Rei Escola de Inteligências","slogan":"Educação para crianças únicas","url":"https://indigorei.com.br/","logo":"https://indigorei.com.br/img/logo.png","telephone":"+55 61 99603-8293","email":"institutoindigorei@gmail.com","address":{"@type":"PostalAddress","streetAddress":"SAUS Quadra 4, Bloco A, Lote 9/10, Ed. Victória Office Tower, salas 733 a 737, Asa Sul","addressLocality":"Brasília","addressRegion":"DF","postalCode":"70070-938","addressCountry":"BR"},"founder":{"@type":"Person","name":"Rosa Menna"},"sameAs":["https://www.instagram.com/indigo.rei/"]}
+</script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <a class="topo-logo" href="#inicio" aria-label="Índigo Rei, voltar ao início"><img src="img/logo-claro-420.webp" alt="Índigo Rei, educação para crianças únicas" width="420" height="107"></a>
+  <nav aria-label="Seções">
+    <a href="#abordagem">Abordagem</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#espaco">Espaço</a>
+    <a href="#historia">História</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#visita">Contato</a>
+  </nav>
+  <a class="botao botao-ouro" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero conhecer o trabalho de vocês."><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>WhatsApp</a>
+  <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+</header>
+<div class="menu" id="menu" hidden>
+  <a href="#abordagem">Abordagem</a>
+  <a href="#servicos">Serviços</a>
+  <a href="#espaco">Espaço</a>
+  <a href="#historia">História</a>
+  <a href="#equipe">Equipe</a>
+  <a href="#visita">Contato</a>
+  <a class="botao botao-ouro" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero conhecer o trabalho de vocês."><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Conversar pelo WhatsApp</a>
+</div>
+
+<main id="conteudo">
+
+<section class="abertura" id="inicio" aria-labelledby="titulo">
+  <div class="palco" id="palco">
+    <video class="filme" id="filme" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+    <div class="veu" id="veu"></div>
+    <svg class="iris" id="iris" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><line stroke="#D49AAA" x1="0.00" y1="-44.50" x2="0.00" y2="-99.00"/><line stroke="#D69D9F" x1="3.88" y1="-44.33" x2="7.54" y2="-86.19"/><line stroke="#D7A094" x1="7.73" y1="-43.82" x2="17.19" y2="-97.50"/><line stroke="#D8A38A" x1="11.52" y1="-42.98" x2="18.91" y2="-70.55"/><line stroke="#DAA67F" x1="15.22" y1="-41.82" x2="33.86" y2="-93.03"/><line stroke="#DCA874" x1="18.81" y1="-40.33" x2="32.68" y2="-70.08"/><line stroke="#DDAB6A" x1="22.25" y1="-38.54" x2="49.50" y2="-85.74"/><line stroke="#DEAE5F" x1="25.52" y1="-36.45" x2="48.20" y2="-68.83"/><line stroke="#E0B154" x1="28.60" y1="-34.09" x2="63.64" y2="-75.84"/><line stroke="#E2AF59" x1="31.47" y1="-31.47" x2="48.89" y2="-48.89"/><line stroke="#E3AC5E" x1="34.09" y1="-28.60" x2="75.84" y2="-63.64"/><line stroke="#E5AA64" x1="36.45" y1="-25.52" x2="70.43" y2="-49.32"/><line stroke="#E6A869" x1="38.54" y1="-22.25" x2="85.74" y2="-49.50"/><line stroke="#E8A56E" x1="40.33" y1="-18.81" x2="67.27" y2="-31.37"/><line stroke="#E9A373" x1="41.82" y1="-15.22" x2="93.03" y2="-33.86"/><line stroke="#EBA179" x1="42.98" y1="-11.52" x2="73.40" y2="-19.67"/><line stroke="#EC9E7E" x1="43.82" y1="-7.73" x2="97.50" y2="-17.19"/><line stroke="#EE9C83" x1="44.33" y1="-3.88" x2="84.64" y2="-7.40"/><line stroke="#EA9A86" x1="44.50" y1="0.00" x2="99.00" y2="0.00"/><line stroke="#E69889" x1="44.33" y1="3.88" x2="68.74" y2="6.01"/><line stroke="#E2968B" x1="43.82" y1="7.73" x2="97.50" y2="17.19"/><line stroke="#DE948E" x1="42.98" y1="11.52" x2="82.37" y2="22.07"/><line stroke="#D99291" x1="41.82" y1="15.22" x2="93.03" y2="33.86"/><line stroke="#D59094" x1="40.33" y1="18.81" x2="68.42" y2="31.90"/><line stroke="#D18E96" x1="38.54" y1="22.25" x2="85.74" y2="49.50"/><line stroke="#CD8C99" x1="36.45" y1="25.52" x2="61.19" y2="42.84"/><line stroke="#C98A9C" x1="34.09" y1="28.60" x2="75.84" y2="63.64"/><line stroke="#C38FA2" x1="31.47" y1="31.47" x2="60.62" y2="60.62"/><line stroke="#BC93A7" x1="28.60" y1="34.09" x2="63.64" y2="75.84"/><line stroke="#B698AD" x1="25.52" y1="36.45" x2="39.62" y2="56.58"/><line stroke="#AF9CB3" x1="22.25" y1="38.54" x2="49.50" y2="85.74"/><line stroke="#A9A1B8" x1="18.81" y1="40.33" x2="35.67" y2="76.49"/><line stroke="#A2A5BE" x1="15.22" y1="41.82" x2="33.86" y2="93.03"/><line stroke="#9CAAC4" x1="11.52" y1="42.98" x2="19.88" y2="74.20"/><line stroke="#95AEC9" x1="7.73" y1="43.82" x2="17.19" y2="97.50"/><line stroke="#8FB3CF" x1="3.88" y1="44.33" x2="6.40" y2="73.20"/><line stroke="#91B5D0" x1="0.00" y1="44.50" x2="0.00" y2="99.00"/><line stroke="#94B6D1" x1="-3.88" y1="44.33" x2="-7.52" y2="86.01"/><line stroke="#96B8D2" x1="-7.73" y1="43.82" x2="-17.19" y2="97.50"/><line stroke="#98B9D3" x1="-11.52" y1="42.98" x2="-17.94" y2="66.97"/><line stroke="#9BBBD4" x1="-15.22" y1="41.82" x2="-33.86" y2="93.03"/><line stroke="#9DBCD5" x1="-18.81" y1="40.33" x2="-35.24" y2="75.56"/><line stroke="#A0BED6" x1="-22.25" y1="38.54" x2="-49.50" y2="85.74"/><line stroke="#A2BFD7" x1="-25.52" y1="36.45" x2="-44.83" y2="64.03"/><line stroke="#A4C1D8" x1="-28.60" y1="34.09" x2="-63.64" y2="75.84"/><line stroke="#A7C2D9" x1="-31.47" y1="31.47" x2="-51.17" y2="51.17"/><line stroke="#A9C4DA" x1="-34.09" y1="28.60" x2="-75.84" y2="63.64"/><line stroke="#A5C1D7" x1="-36.45" y1="25.52" x2="-71.06" y2="49.76"/><line stroke="#A1BED5" x1="-38.54" y1="22.25" x2="-85.74" y2="49.50"/><line stroke="#9CBBD2" x1="-40.33" y1="18.81" x2="-63.25" y2="29.50"/><line stroke="#98B8CF" x1="-41.82" y1="15.22" x2="-93.03" y2="33.86"/><line stroke="#94B5CC" x1="-42.98" y1="11.52" x2="-79.43" y2="21.28"/><line stroke="#90B2CA" x1="-43.82" y1="7.73" x2="-97.50" y2="17.19"/><line stroke="#8CAFC7" x1="-44.33" y1="3.88" x2="-79.21" y2="6.93"/><line stroke="#87ACC4" x1="-44.50" y1="0.00" x2="-99.00" y2="0.00"/><line stroke="#83A9C2" x1="-44.33" y1="-3.88" x2="-71.10" y2="-6.22"/><line stroke="#7FA6BF" x1="-43.82" y1="-7.73" x2="-97.50" y2="-17.19"/><line stroke="#7BA6BE" x1="-42.98" y1="-11.52" x2="-84.00" y2="-22.51"/><line stroke="#77A5BC" x1="-41.82" y1="-15.22" x2="-93.03" y2="-33.86"/><line stroke="#73A5BB" x1="-40.33" y1="-18.81" x2="-63.84" y2="-29.77"/><line stroke="#6FA4BA" x1="-38.54" y1="-22.25" x2="-85.74" y2="-49.50"/><line stroke="#6BA4B9" x1="-36.45" y1="-25.52" x2="-66.34" y2="-46.46"/><line stroke="#67A4B8" x1="-34.09" y1="-28.60" x2="-75.84" y2="-63.64"/><line stroke="#63A3B6" x1="-31.47" y1="-31.47" x2="-57.15" y2="-57.15"/><line stroke="#5FA3B5" x1="-28.60" y1="-34.09" x2="-63.64" y2="-75.84"/><line stroke="#6EA2B4" x1="-25.52" y1="-36.45" x2="-40.46" y2="-57.78"/><line stroke="#7CA1B2" x1="-22.25" y1="-38.54" x2="-49.50" y2="-85.74"/><line stroke="#8BA0B1" x1="-18.81" y1="-40.33" x2="-36.76" y2="-78.83"/><line stroke="#9A9EB0" x1="-15.22" y1="-41.82" x2="-33.86" y2="-93.03"/><line stroke="#A89DAE" x1="-11.52" y1="-42.98" x2="-18.44" y2="-68.83"/><line stroke="#B79CAD" x1="-7.73" y1="-43.82" x2="-17.19" y2="-97.50"/><line stroke="#C59BAB" x1="-3.88" y1="-44.33" x2="-6.95" y2="-79.38"/></svg>
+    <div class="abertura-texto" id="abertura-texto">
+      <h1 id="titulo">Educação para crianças únicas</h1>
+      <p>Escola de inteligências na Asa Sul, em Brasília. Contraturno, avaliações e acompanhamento escolar para crianças e jovens, com olhar especializado para altas habilidades e dificuldades de aprendizagem.</p>
+      <div class="acoes">
+        <a class="botao botao-ouro" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero conhecer o trabalho de vocês."><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Conversar pelo WhatsApp</a>
+        <a class="botao botao-linha" href="#espaco">Conhecer o espaço</a>
+      </div>
+    </div>
+    <p class="abertura-legenda" id="legenda">O olhar sensível para cada criança.</p>
+    <div class="dica" id="dica" aria-hidden="true">Role a página</div>
+  </div>
+</section>
+
+<section class="manifesto escuro secao" aria-labelledby="manifesto-titulo">
+  <div class="contem">
+    <h2 id="manifesto-titulo">Cuidar de uma criança é cuidar de uma família inteira.</h2>
+    <div class="aurea">
+      <p class="lead">Quando uma criança encontra um lugar onde é compreendida, estimulada e respeitada em sua individualidade, algo muda dentro dela. E muda também dentro de casa.</p>
+      <p class="suave">A Índigo Rei nasce com esse propósito: ser uma escola de inteligências que olha para cada aluno como único.</p>
+    </div>
+    <p class="verbos">Aqui, crianças e jovens são convidados a pensar, sentir, investigar, criar e descobrir quem são.</p>
+  </div>
+</section>
+
+<section class="abordagem claro secao" id="abordagem" aria-labelledby="abordagem-titulo">
+  <div class="contem aurea">
+    <div>
+      <h2 id="abordagem-titulo">Uma criança não cabe em um número.</h2>
+      <p class="lead" style="margin-top:1.6rem">O QI traz informações importantes, mas não conta a história inteira. Uma criança também é feita de emoção, criatividade, interesses, funções executivas, contexto familiar, identidade e sensibilidade.</p>
+      <p class="suave">Por isso o olhar da Índigo é amplo, humano e sistêmico. Cada criança é acompanhada na sua integralidade: cognitiva, emocional, motora e socioemocional.</p>
+      <h3>Altas habilidades e dupla excepcionalidade</h3>
+      <p class="suave">Altas habilidades ou superdotação (AH/SD) não é sinônimo de criança gênio, nem privilégio. É uma condição do desenvolvimento que pede compreensão, acolhimento e desafios à altura. Quando aparece junto com outra condição, como TDAH, autismo ou dislexia, falamos em dupla excepcionalidade (2e).</p>
+      <ul class="pilares">
+        <li style="--cor:var(--petroleo)"><strong>Olhar amplo</strong><span>Avaliação e acompanhamento que vão além do teste.</span></li>
+        <li style="--cor:var(--coral)"><strong>Grupos pequenos</strong><span>Projetos que partem do interesse de cada criança.</span></li>
+        <li style="--cor:var(--rosa)"><strong>Família junto</strong><span>Orientação e encontros para quem cuida em casa.</span></li>
+      </ul>
+    </div>
+    <figure class="video-cartao">
+      <div class="video-moldura">
+        <video controls preload="none" playsinline poster="video/qi-capa.webp" width="720" height="1280"><source src="video/qi.mp4" type="video/mp4"></video>
+      </div>
+      <figcaption><strong>Precisa fazer teste de inteligência para entrar na Índigo?</strong><span class="suave">Rosa Menna responde. 1 min 23 s</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="escuro secao" id="servicos" aria-labelledby="servicos-titulo">
+  <div class="contem">
+    <div class="servicos-topo">
+      <h2 id="servicos-titulo">Como a Índigo acompanha cada criança</h2>
+      <p class="suave">Cada criança tem um Programa Educacional Personalizado, montado com os serviços abaixo. Escolha um caminho e fale com a gente pelo WhatsApp. A mensagem já vai escrita.</p>
+    </div>
+    <div class="servicos">
+      <div class="abas" role="tablist" aria-label="Tipos de serviço">
+        <button class="aba" role="tab" id="aba-dia" aria-controls="painel-dia" aria-selected="true" style="--cor:var(--coral)"><strong>No dia a dia</strong><small>Acompanhamento contínuo, no ritmo de cada criança.</small></button>
+        <button class="aba" role="tab" id="aba-avaliacoes" aria-controls="painel-avaliacoes" aria-selected="false" tabindex="-1" style="--cor:var(--petroleo)"><strong>Avaliação e psicologia</strong><small>Para entender como a criança aprende e cuidar do que ela sente.</small></button>
+        <button class="aba" role="tab" id="aba-familia" aria-controls="painel-familia" aria-selected="false" tabindex="-1" style="--cor:var(--rosa)"><strong>Família e escola</strong><small>A criança cresce junto com quem cuida dela.</small></button>
+        <button class="aba" role="tab" id="aba-ferias" aria-controls="painel-ferias" aria-selected="false" tabindex="-1" style="--cor:var(--ouro)"><strong>Projetos e férias</strong><small>Experiências que viram memória.</small></button>
+      </div>
+      <div>
+        <div class="painel" role="tabpanel" id="painel-dia" aria-labelledby="aba-dia" style="--cor:var(--coral)">
+          <div class="painel-foto"><img src="img/atividade-leitura-1280.webp" srcset="img/atividade-leitura-640.webp 640w, img/atividade-leitura-1280.webp 1280w" sizes="(max-width:880px) 100vw, 62vw" alt="Criança folheando um livro no tapete colorido, ao lado de uma educadora" width="1320" height="660" loading="lazy" decoding="async"></div>
+          <ul class="lista-servicos">
+            <li><h3>Programa Educacional Personalizado</h3><p>Um plano desenhado para a criança, que reúne os serviços da Índigo com objetivos, estratégias e acompanhamento próximo da família.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre o Programa Educacional Personalizado." aria-label="Perguntar pelo WhatsApp sobre Programa Educacional Personalizado"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Contraturno</h3><p>No turno oposto ao da escola, com grupo pequeno, projetos que nascem do interesse da criança e educação integral. Turmas de manhã e à tarde.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre o Contraturno." aria-label="Perguntar pelo WhatsApp sobre Contraturno"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Enriquecimento</h3><p>Aprofundamento e projetos para quem já domina o conteúdo, inclusive crianças com altas habilidades. Não é mais tarefa: é desafio à altura.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre o Enriquecimento." aria-label="Perguntar pelo WhatsApp sobre Enriquecimento"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Intervenção Pedagógica</h3><p>Português, matemática e as demais matérias da escola, com plano individual para avançar onde a criança precisa.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Intervenção Pedagógica." aria-label="Perguntar pelo WhatsApp sobre Intervenção Pedagógica"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Alfabetização</h3><p>Leitura e escrita iniciais, no tempo de cada criança.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Alfabetização." aria-label="Perguntar pelo WhatsApp sobre Alfabetização"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Mentoria de Estudos</h3><p>Organização, rotina e método de estudo.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Mentoria de Estudos." aria-label="Perguntar pelo WhatsApp sobre Mentoria de Estudos"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Idiomas</h3><p>Inglês e outras línguas.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre as aulas de idiomas." aria-label="Perguntar pelo WhatsApp sobre Idiomas"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+          </ul>
+        </div>
+        <div class="painel" role="tabpanel" id="painel-avaliacoes" aria-labelledby="aba-avaliacoes" hidden style="--cor:var(--petroleo)">
+          <div class="painel-foto"><img src="img/jogo-pedras-1280.webp" srcset="img/jogo-pedras-640.webp 640w, img/jogo-pedras-1280.webp 1280w, img/jogo-pedras-1920.webp 1920w, img/jogo-pedras-2560.webp 2560w" sizes="(max-width:880px) 100vw, 62vw" alt="Tabuleiro de jogo da velha com pedras pintadas, ao lado do tapete colorido" width="7008" height="3944" loading="lazy" decoding="async"></div>
+          <ul class="lista-servicos">
+            <li><h3>Avaliação diagnóstica de aprendizagem</h3><p>Rastreio de competências de linguagem e matemática que mostra onde a criança está e por onde seguir.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Avaliação diagnóstica de aprendizagem." aria-label="Perguntar pelo WhatsApp sobre Avaliação diagnóstica de aprendizagem"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Avaliação neuropsicológica</h3><p>Feita por psicóloga da equipe. Olha para atenção, memória, linguagem e funções executivas, para apoiar decisões sobre o desenvolvimento.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Avaliação neuropsicológica." aria-label="Perguntar pelo WhatsApp sobre Avaliação neuropsicológica"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Psicoterapia</h3><p>Atendimento psicológico com psicóloga da equipe, para a criança e o jovem cuidarem das emoções, dos vínculos e da forma de estar no mundo.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Psicoterapia." aria-label="Perguntar pelo WhatsApp sobre Psicoterapia"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Psicopedagogia</h3><p>Acompanhamento das dificuldades de aprendizagem com abordagem psicopedagógica.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Psicopedagogia." aria-label="Perguntar pelo WhatsApp sobre Psicopedagogia"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+          </ul>
+        </div>
+        <div class="painel" role="tabpanel" id="painel-familia" aria-labelledby="aba-familia" hidden style="--cor:var(--rosa)">
+          <div class="painel-foto"><img src="img/atividade-roda-familias-1280.webp" srcset="img/atividade-roda-familias-640.webp 640w, img/atividade-roda-familias-1280.webp 1280w, img/atividade-roda-familias-1920.webp 1920w" sizes="(max-width:880px) 100vw, 62vw" alt="Mães e educadoras reunidas no espaço da Índigo depois de uma roda de conversa Entre Nós" width="2100" height="1050" loading="lazy" decoding="async"></div>
+          <ul class="lista-servicos">
+            <li><h3>Acolhimento</h3><p>A primeira conversa com a família, para conhecer a história da criança e pensar juntos o melhor caminho.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre o Acolhimento." aria-label="Perguntar pelo WhatsApp sobre Acolhimento"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Orientação parental</h3><p>Encontros com a família para compreender o jeito da criança e construir caminhos em casa.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Orientação parental." aria-label="Perguntar pelo WhatsApp sobre Orientação parental"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Rodas de conversa Entre Nós</h3><p>Encontros que acolhem, orientam e fortalecem famílias por meio da escuta e da troca.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre as Rodas de conversa Entre Nós." aria-label="Perguntar pelo WhatsApp sobre Rodas de conversa Entre Nós"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Orientação escolar e PEI</h3><p>Visitas à escola e apoio na construção e no acompanhamento do Plano de Ensino Individualizado.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Orientação escolar e o PEI." aria-label="Perguntar pelo WhatsApp sobre Orientação escolar e PEI"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Formação para escolas</h3><p>Semana pedagógica, formação continuada e consultoria para equipes que querem olhar para cada aluno.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre a Formação para escolas." aria-label="Perguntar pelo WhatsApp sobre Formação para escolas"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+          </ul>
+        </div>
+        <div class="painel" role="tabpanel" id="painel-ferias" aria-labelledby="aba-ferias" hidden style="--cor:var(--ouro)">
+          <div class="painel-foto"><img src="img/atividade-oficina-aquario-1280.webp" srcset="img/atividade-oficina-aquario-640.webp 640w, img/atividade-oficina-aquario-1280.webp 1280w, img/atividade-oficina-aquario-1920.webp 1920w" sizes="(max-width:880px) 100vw, 62vw" alt="Crianças desenhando na mesa de projetos durante a oficina de aquarismo, com potes de plantas aquáticas" width="2100" height="1050" loading="lazy" decoding="async"></div>
+          <ul class="lista-servicos">
+            <li><h3>Clube de Férias</h3><p>Semanas temáticas nas férias escolares, com ciência, arte, natureza e muita descoberta. Inscrição por semana.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre o Clube de Férias." aria-label="Perguntar pelo WhatsApp sobre Clube de Férias"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Oficinas</h3><p>Vivências imersivas de curta duração, como aquarismo, culinária e ciência com as próprias mãos.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre as Oficinas." aria-label="Perguntar pelo WhatsApp sobre Oficinas"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+            <li><h3>Projetos de Vida</h3><p>Autoconhecimento, interesses e escolhas, para jovens que começam a desenhar o próprio caminho.</p><a class="perguntar" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero saber mais sobre os Projetos de Vida." aria-label="Perguntar pelo WhatsApp sobre Projetos de Vida"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Perguntar</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="espaco" id="espaco" aria-labelledby="espaco-titulo">
+  <div class="contem aurea">
+    <h2 id="espaco-titulo">Um território de pertencimento</h2>
+    <div>
+      <p class="lead">Aqui não se construiu apenas um espaço físico. Cada cor, cada material, cada escolha comunica respeito pela infância.</p>
+      <p class="suave">Tudo foi pensado para educar o olhar, organizar o pensamento e acolher o sentir. O projeto foi feito em parceria com o arquiteto Edgar Carvalho.</p>
+    </div>
+  </div>
+  <div class="contem">
+    <p class="ser-indigo">Ser Índigo significa ser <span class="s1">único</span>, <span class="s2">profundo</span>, <span class="s3">especial</span>.</p>
+    <ul class="simbolos" aria-label="O que os símbolos da Índigo representam">
+      <li><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="900.30 510.30 112.99 59.96"><defs><clipPath id="ic-iris-clip-0"><path clip-rule="nonzero" d="M 890 492.5 L 1030 492.5 L 1030 587.5 L 890 587.5 Z M 890 492.5 "/></clipPath><clipPath id="ic-iris-clip-1"><path clip-rule="nonzero" d="M 890 526 L 896 526 L 896 587.5 L 890 587.5 Z M 890 526 "/></clipPath></defs><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 908.078125 540.277344 C 913.53125 545.773438 933.488281 564.132812 956.789062 564.132812 C 980.09375 564.132812 1000.050781 545.773438 1005.503906 540.277344 C 1000.050781 534.777344 980.09375 516.417969 956.789062 516.417969 C 933.488281 516.417969 913.53125 534.777344 908.078125 540.277344 M 956.789062 568.753906 C 927.425781 568.753906 904.136719 542.910156 903.15625 541.808594 L 901.796875 540.277344 L 903.15625 538.742188 C 904.136719 537.640625 927.425781 511.796875 956.789062 511.796875 C 986.15625 511.796875 1009.445312 537.640625 1010.425781 538.742188 L 1011.785156 540.277344 L 1010.425781 541.808594 C 1009.445312 542.910156 986.15625 568.753906 956.789062 568.753906 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 955.960938 531.285156 C 950.617188 531.285156 946.273438 535.632812 946.273438 540.972656 C 946.273438 546.316406 950.617188 550.664062 955.960938 550.664062 C 961.304688 550.664062 965.652344 546.316406 965.652344 540.972656 C 965.652344 535.632812 961.304688 531.285156 955.960938 531.285156 M 955.960938 555.285156 C 948.070312 555.285156 941.652344 548.863281 941.652344 540.972656 C 941.652344 533.082031 948.070312 526.664062 955.960938 526.664062 C 963.851562 526.664062 970.269531 533.082031 970.269531 540.972656 C 970.269531 548.863281 963.851562 555.285156 955.960938 555.285156 "/></svg><strong>A íris</strong><span>Única em cada ser, lembra que nenhuma criança é igual à outra.</span></li>
+      <li><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="887.63 495.84 145.87 91.73"><defs><clipPath id="ic-proporcao-clip-0"><path clip-rule="nonzero" d="M 870 482.5 L 1050 482.5 L 1050 597.5 L 870 597.5 Z M 870 482.5 "/></clipPath><clipPath id="ic-proporcao-clip-1"><path clip-rule="nonzero" d="M 870 482.5 L 904 482.5 L 904 597.5 L 870 597.5 Z M 870 482.5 "/></clipPath></defs><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 989.292969 584.195312 C 987.660156 583.019531 985.765625 582.222656 984.195312 580.933594 C 981.804688 578.976562 979.25 575.910156 978.273438 572.980469 C 977.875 573.0625 977.980469 573.304688 977.957031 573.570312 C 977.867188 574.492188 977.886719 575.832031 977.871094 576.808594 C 977.839844 579.179688 977.980469 581.554688 977.949219 583.90625 C 977.976562 584.007812 978.113281 584.195312 978.175781 584.195312 Z M 978.078125 564.71875 C 978.242188 573.800781 985.183594 581.707031 994.007812 583.515625 C 994.707031 583.65625 996.296875 583.980469 996.917969 583.960938 C 997.105469 583.957031 997.359375 583.824219 997.359375 583.703125 L 997.359375 565.011719 C 997.359375 564.992188 997.085938 564.71875 997.066406 564.71875 Z M 1029.828125 584.195312 L 1029.828125 563.734375 L 1027.765625 568.261719 C 1024.628906 574.0625 1019.890625 578.777344 1014.148438 581.996094 L 1009.363281 584.195312 Z M 1029.632812 553.503906 L 999.132812 553.503906 L 999.429688 584.003906 C 1004.5625 583.6875 1009.355469 582.414062 1013.824219 579.902344 C 1023.277344 574.585938 1029.335938 564.390625 1029.632812 553.503906 M 997.363281 553.5 L 995.984375 553.597656 L 997.359375 554.683594 Z M 989.296875 553.5 C 989.046875 554.625 989.054688 555.789062 989.097656 556.941406 C 989.125 557.554688 989.222656 559.15625 989.335938 559.65625 C 989.410156 559.992188 989.601562 560.148438 989.78125 560.390625 C 992.339844 563.847656 999.722656 561.113281 996.085938 556.449219 C 994.492188 554.398438 991.734375 553.804688 989.296875 553.5 M 987.128906 553.503906 C 982.503906 553.808594 978.003906 558.011719 978.078125 562.75 L 987.128906 562.75 Z M 981.226562 553.503906 L 978.078125 553.503906 L 978.078125 556.648438 C 978.941406 555.59375 979.960938 554.824219 980.976562 553.953125 C 981.117188 553.832031 981.347656 553.964844 981.226562 553.503906 M 1029.828125 551.535156 C 1029.914062 548.203125 1029.457031 544.902344 1028.78125 541.65625 C 1023.914062 518.277344 1003.1875 500.511719 979.152344 499.992188 C 978.875 499.984375 977.882812 499.628906 977.882812 500.078125 L 977.882812 551.238281 C 977.882812 551.261719 978.15625 551.535156 978.175781 551.535156 Z M 975.914062 584.195312 L 975.914062 499.882812 C 975.914062 499.277344 974.035156 499.78125 973.660156 499.792969 C 934.683594 501.011719 901.230469 529.21875 893.136719 567.238281 C 891.957031 572.796875 891.253906 578.507812 891.304688 584.195312 Z M 1030.023438 537.957031 L 1030.023438 499.6875 C 1030.023438 499.664062 1029.75 499.390625 1029.730469 499.390625 L 990.671875 499.390625 C 990.628906 499.671875 991 499.660156 991.210938 499.734375 C 992.132812 500.078125 993.15625 500.242188 994.117188 500.570312 C 1009.105469 505.636719 1021.269531 516.542969 1027.5 531.132812 Z M 959.1875 499.390625 L 891.109375 499.390625 L 891.109375 567.273438 L 893.175781 559.601562 C 901.527344 532.15625 923.53125 510.121094 950.925781 501.65625 Z M 1031.75 585.921875 L 889.730469 586.066406 L 889.230469 585.386719 L 889.132812 498.890625 C 889.140625 498.371094 889.238281 497.722656 889.828125 497.621094 C 890.398438 497.519531 891.746094 497.433594 892.378906 497.414062 C 897.429688 497.25 903.027344 497.394531 908.136719 497.414062 C 948.851562 497.585938 989.613281 497.429688 1030.523438 497.414062 C 1031.066406 497.394531 1031.566406 497.585938 1031.894531 498.015625 L 1032 584.894531 Z M 1031.75 585.921875 "/></svg><strong>A proporção</strong><span>Inspirada em Fibonacci, revela ordem, estética e harmonia.</span></li>
+      <li><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="909.38 466.91 98.39 146.58"><defs><clipPath id="ic-coroa-clip-0"><path clip-rule="nonzero" d="M 895 460 L 1025 460 L 1025 620 L 895 620 Z M 895 460 "/></clipPath><clipPath id="ic-coroa-clip-1"><path clip-rule="nonzero" d="M 895 460 L 901 460 L 901 472 L 895 472 Z M 895 460 "/></clipPath></defs><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 957.21875 468.957031 C 957.476562 468.117188 959.933594 468.347656 959.933594 468.957031 L 959.933594 595.8125 C 959.933594 596.28125 957.21875 596.496094 957.21875 595.8125 Z M 957.21875 468.957031 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 967.054688 596.664062 C 966.363281 596.617188 964.574219 596.945312 964.378906 596.125 L 972.65625 514.570312 L 974.722656 516.085938 Z M 967.054688 596.664062 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 950.09375 596.664062 L 942.636719 518.476562 C 942.535156 515.867188 942.429688 515.5 944.839844 514.242188 L 952.769531 596.125 C 952.574219 596.945312 950.785156 596.617188 950.09375 596.664062 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 982.949219 550.929688 L 973.664062 598.363281 L 971.121094 597.480469 L 980.625 549.515625 Z M 982.949219 550.929688 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 946.027344 597.671875 C 945.945312 597.785156 943.75 598.222656 943.3125 598.355469 L 934.15625 551.335938 C 934.140625 550.683594 935.824219 550.085938 936.359375 549.515625 Z M 946.027344 597.671875 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 979.9375 600.730469 C 979.308594 600.21875 977.558594 600.144531 977.617188 599.273438 L 987.910156 565.796875 L 989.632812 567.847656 Z M 979.9375 600.730469 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 929.742188 565.796875 L 939.53125 599.273438 C 939.59375 600.210938 937.863281 600.097656 937.371094 600.726562 L 927.351562 567.351562 Z M 929.742188 565.796875 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 985.703125 603.785156 C 984.339844 602.863281 983.378906 603.234375 983.824219 601.394531 C 985.625 593.925781 990.992188 585.328125 993 577.664062 L 993.679688 576.65625 C 994.484375 577.394531 995.414062 578.230469 995.148438 579.441406 Z M 985.703125 603.785156 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 931.445312 603.78125 L 921.996094 579.101562 C 921.90625 578.210938 922.882812 577.289062 923.46875 576.65625 L 933.761719 602.265625 Z M 931.445312 603.78125 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 917.726562 585.480469 L 928.347656 605.996094 L 926.523438 607.507812 L 916.308594 587.503906 C 916.027344 586.636719 917.191406 586.070312 917.726562 585.480469 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 991.132812 607.515625 L 988.800781 605.996094 L 999.421875 585.480469 C 999.957031 586.070312 1001.121094 586.636719 1000.839844 587.503906 Z M 991.132812 607.515625 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 995.539062 611.921875 C 994.976562 612.390625 994.125 610.324219 993.566406 610.0625 L 1004.53125 592.59375 L 1006.265625 594.640625 Z M 995.539062 611.921875 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 922.273438 611.921875 C 922.214844 611.972656 921.546875 612.054688 921.574219 611.710938 L 910.882812 594.640625 C 910.800781 594.195312 912.125 592.984375 912.300781 592.941406 C 913.289062 592.710938 921.992188 608.21875 923.503906 609.871094 C 923.261719 610.210938 922.367188 611.84375 922.273438 611.921875 "/></svg><strong>A coroa</strong><span>Não fala de poder. Fala de consciência, de realeza interior, de liderança com ética.</span></li>
+      <li><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="882.85 461.18 147.44 155.13"><defs><clipPath id="ic-escada-clip-0"><path clip-rule="nonzero" d="M 870 450 L 1050 450 L 1050 630 L 870 630 Z M 870 450 "/></clipPath></defs><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 977.976562 492.484375 L 973 486.292969 L 973 485.835938 L 995.757812 462.839844 C 996.277344 462.34375 997.167969 463.105469 997.699219 463.449219 C 1000.679688 465.378906 1003.609375 468.941406 1005.039062 472.195312 C 1005.296875 472.773438 1005.980469 474.050781 1005.652344 474.574219 Z M 977.976562 492.484375 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 986.019531 500.984375 L 982.648438 493.644531 L 1010.015625 476.453125 C 1012.988281 479.199219 1015.40625 483.207031 1016.226562 487.207031 C 1016.371094 487.890625 1016.808594 489.632812 1016.339844 490.09375 Z M 986.019531 500.984375 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 1023.421875 506.707031 L 992.113281 510.898438 L 990.132812 503.078125 L 1019.867188 492.53125 C 1022.949219 496.304688 1024.195312 501.910156 1023.421875 506.707031 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 1025.949219 508.859375 C 1027.824219 513.328125 1027.863281 518.445312 1026.421875 523.039062 L 995.453125 520.621094 C 995.40625 518.0625 995.019531 515.539062 995.21875 512.976562 Z M 1025.949219 508.859375 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 998.324219 522.867188 L 1028.058594 524.558594 C 1028.96875 525.011719 1028.820312 529.890625 1028.71875 530.964844 C 1028.609375 532.09375 1026.976562 538.179688 1026.066406 538.4375 L 997.023438 530.53125 L 996.84375 530.128906 C 997.585938 528.125 997.347656 525.128906 997.988281 523.21875 C 998.050781 523.035156 998.121094 522.910156 998.324219 522.867188 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 1027.125 542.609375 C 1027.21875 547.0625 1025.726562 552.609375 1022.203125 555.464844 L 995.878906 542.265625 L 998.21875 535.863281 L 998.734375 535.484375 Z M 1027.125 542.609375 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 1022.289062 560.316406 C 1021.960938 562.816406 1020.886719 565.390625 1019.507812 567.492188 C 1018.929688 568.375 1016.097656 571.988281 1015.128906 571.753906 L 992.425781 554.214844 C 993.476562 552.589844 994.277344 550.707031 995.414062 549.144531 C 995.65625 548.816406 995.949219 548.105469 996.414062 548.152344 Z M 1022.289062 560.316406 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 988.164062 563.609375 C 988.636719 563.0625 990.871094 560.609375 991.292969 560.398438 C 991.625 560.234375 991.78125 560.410156 992.050781 560.558594 L 1013.828125 576.949219 C 1014.0625 577.144531 1014.007812 577.28125 1013.945312 577.535156 C 1013.734375 578.359375 1012.390625 580.421875 1011.832031 581.191406 C 1010.523438 582.992188 1008.582031 584.765625 1006.664062 585.902344 C 1006.25 586.144531 1005.417969 586.796875 1005.078125 586.625 L 986.796875 565.808594 C 986.5 565.167969 987.707031 564.140625 988.164062 563.609375 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 991.535156 599.582031 L 978.683594 575.347656 L 984.316406 571.359375 L 1002.0625 592.171875 C 1002.304688 593.128906 998.527344 596.289062 997.65625 596.890625 C 995.773438 598.1875 993.742188 598.992188 991.535156 599.582031 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 975.21875 608.535156 L 969.257812 582.496094 C 969.398438 581.882812 974.679688 580.570312 975.546875 580.132812 L 986.914062 604.3125 C 986.902344 605.214844 982.792969 607.191406 981.855469 607.519531 C 979.777344 608.25 977.425781 608.652344 975.21875 608.535156 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 965.75 586.058594 L 970.355469 611.628906 C 967.417969 613.359375 963.132812 613.820312 959.785156 613.050781 C 959.292969 612.9375 958.214844 612.785156 958.203125 612.140625 L 959.113281 586.496094 C 961.316406 586.332031 963.535156 585.957031 965.75 586.058594 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 956.582031 589.023438 L 954.71875 614.511719 C 950.769531 615.242188 946.515625 614.667969 943.125 612.460938 C 945.246094 604.367188 947.746094 596.207031 950.035156 588.09375 L 950.246094 587.941406 Z M 956.582031 589.023438 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 936.566406 612.441406 C 932.757812 612.460938 928.363281 610.652344 926.046875 607.566406 L 938.753906 586.5 C 939.511719 586.742188 944.292969 588.75 944.347656 589.128906 Z M 936.566406 612.441406 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 927.328125 581.921875 C 927.757812 581.808594 929.550781 583.347656 930.03125 583.742188 C 930.414062 584.0625 932.222656 585.46875 932.128906 585.816406 L 919.226562 605.574219 C 918.714844 606.035156 916.582031 604.808594 915.980469 604.460938 C 913.835938 603.21875 911.328125 600.882812 910.414062 598.609375 Z M 927.328125 581.921875 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 917.710938 574.34375 L 920.859375 579.140625 L 903.488281 594.203125 C 902.671875 594.578125 900.386719 592.128906 899.824219 591.429688 C 899.078125 590.507812 896.554688 586.3125 897.164062 585.34375 Z M 917.710938 574.34375 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 909.886719 564.949219 C 910.074219 564.933594 910.265625 564.839844 910.472656 564.90625 C 910.6875 564.953125 910.71875 565.121094 910.800781 565.285156 C 910.945312 565.566406 912.191406 569.863281 912.183594 570.113281 C 912.179688 570.292969 912.183594 570.417969 912.007812 570.523438 L 890.980469 578.917969 C 889.140625 576.015625 887.582031 572.339844 888.316406 568.90625 Z M 909.886719 564.949219 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 907.167969 561.214844 L 885.488281 563.03125 C 883.695312 560.042969 884.324219 555.914062 885.34375 552.714844 L 907.183594 555.570312 C 907.867188 556.03125 906.886719 560.222656 907.167969 561.214844 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 907.148438 544.917969 C 907.265625 545.058594 907.167969 545.640625 907.117188 545.875 C 907.019531 546.324219 905.757812 549.957031 905.574219 550.082031 C 905.402344 550.199219 905.199219 550.210938 905 550.195312 L 884.671875 545.566406 C 884.460938 542.15625 885.714844 538.800781 887.785156 536.144531 Z M 907.148438 544.917969 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 902.019531 525.460938 C 905.058594 528.265625 908.09375 531.117188 911.054688 534.015625 L 907.945312 538.203125 L 890.195312 527.523438 C 890.933594 525.0625 892.519531 522.5 894.527344 520.878906 C 895.074219 520.4375 895.792969 519.714844 896.496094 520.296875 C 898.265625 522.09375 900.171875 523.753906 902.019531 525.460938 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 908.496094 506.558594 C 908.757812 506.527344 909 506.441406 909.238281 506.628906 L 918.378906 524.105469 L 914.308594 526.882812 L 901.449219 511.65625 C 902.457031 509.5625 906.253906 506.84375 908.496094 506.558594 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 926.234375 498.71875 L 927.863281 517.859375 C 927.777344 518.246094 923.847656 518.761719 923.175781 518.949219 L 917.503906 500.660156 C 917.574219 499.894531 920.601562 498.980469 921.410156 498.808594 C 923 498.46875 924.636719 498.351562 926.234375 498.71875 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 942.085938 498.035156 L 936.9375 515.714844 C 936.449219 516.367188 933.109375 515.289062 932.246094 515.230469 L 933.640625 496.675781 C 936.535156 495.839844 939.476562 496.75 942.085938 498.035156 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 951.785156 500.113281 C 952.519531 499.632812 955.367188 501.121094 956.101562 501.597656 C 956.789062 502.042969 958.96875 503.792969 958.894531 504.554688 L 947.773438 518.4375 C 947.058594 517.820312 944.066406 516.582031 944.203125 515.652344 Z M 951.785156 500.113281 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 968.648438 510.496094 C 969.753906 510.496094 973.355469 515.621094 973.027344 517.089844 L 957.730469 525.03125 C 957.339844 524.445312 955.308594 521.910156 955.53125 521.460938 Z M 968.648438 510.496094 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 979.296875 527.011719 C 980.328125 529.304688 980.972656 532.011719 980.039062 534.457031 L 963.480469 534.785156 L 963.027344 530.429688 Z M 979.296875 527.011719 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 980.910156 543.78125 C 981.511719 544.714844 979.574219 550.617188 978.304688 550.640625 L 964.148438 543.839844 L 965.449219 540.058594 C 967.222656 540.730469 980.480469 543.109375 980.910156 543.78125 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 979.324219 552.953125 C 979.703125 554.320312 976.804688 559.519531 975.582031 559.339844 L 963.058594 550.070312 L 965.195312 546.796875 Z M 979.324219 552.953125 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 962.027344 551.816406 C 962.761719 551.621094 972.21875 560.527344 973.558594 561.609375 C 973.859375 562.773438 969.925781 566.226562 968.773438 566.40625 C 968.019531 566.523438 960.628906 555.660156 959.359375 554.402344 C 959.324219 554.21875 961.847656 551.867188 962.027344 551.816406 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 961.210938 572.441406 L 955.238281 559.21875 C 955.175781 558.554688 957.78125 557.527344 958.347656 557.105469 L 967.125 568.96875 C 967.238281 569.699219 965.410156 571.011719 964.785156 571.371094 C 964.167969 571.726562 961.761719 572.789062 961.210938 572.441406 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 958.164062 574.515625 C 956.148438 575.519531 953.8125 576.128906 951.625 575.480469 L 950.617188 560.996094 C 951.421875 561.0625 953.917969 560.109375 954.40625 560.75 Z M 958.164062 574.515625 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 949.402344 562.648438 L 950.121094 576.820312 C 947.898438 577.523438 945.929688 577.195312 943.734375 576.589844 L 945.78125 562.363281 C 946.609375 562.476562 948.847656 562.097656 949.402344 562.648438 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 940.953125 576.386719 C 938.753906 576.082031 936.472656 575.59375 935.042969 573.742188 L 941.542969 561.664062 C 942.074219 561.898438 944.746094 562.722656 944.808594 563.160156 Z M 940.953125 576.386719 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 938.652344 561.222656 L 931.957031 572.902344 C 931.109375 573.109375 930.328125 572.601562 929.625 572.199219 C 928.996094 571.84375 926.417969 569.824219 926.808594 569.035156 L 935.675781 559.476562 C 936.28125 559.167969 937.863281 561.136719 938.652344 561.222656 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 931.652344 555.984375 C 931.902344 556.003906 933.6875 558.582031 933.503906 558.917969 L 923.714844 566.851562 C 922.875 567.246094 921.40625 565.171875 921.007812 564.503906 C 920.703125 563.992188 919.828125 562.390625 920.140625 561.902344 Z M 931.652344 555.984375 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 929.234375 552.023438 C 929.046875 552.753906 930.210938 554.972656 929.699219 555.355469 L 917.894531 559.585938 C 916.589844 558.0625 916.210938 555.863281 916.375 553.871094 Z M 929.234375 552.023438 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 927.363281 551.070312 L 915.015625 550.613281 C 914.324219 550.175781 914.996094 545.84375 915.558594 545.125 C 915.742188 544.894531 915.914062 544.859375 916.183594 544.9375 L 927.628906 547.765625 C 928.132812 548.140625 927.519531 550.417969 927.363281 551.070312 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 928.53125 542.847656 L 927.371094 545.800781 C 923.671875 544.820312 920.121094 543.09375 916.425781 541.964844 C 915.347656 541.480469 916.199219 539.4375 916.636719 538.621094 C 916.847656 538.21875 918.03125 536.578125 918.304688 536.617188 Z M 928.53125 542.847656 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 924.578125 530.914062 C 924.925781 530.863281 925.128906 530.929688 925.332031 531.21875 L 931.730469 540.230469 C 931.78125 540.554688 930.089844 542.179688 929.699219 542.285156 L 920.980469 534.636719 C 920.683594 533.65625 923.660156 531.042969 924.578125 530.914062 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 932.203125 527.910156 L 935.226562 538.8125 L 935.1875 539.132812 C 934.472656 539.070312 933.34375 540.058594 932.789062 540 C 932.195312 539.933594 928.074219 531.125 927.207031 530.074219 C 928.429688 528.671875 930.375 527.910156 932.203125 527.910156 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 940.011719 527.6875 L 939.578125 538.925781 C 939.097656 538.839844 936.738281 539.042969 936.597656 538.910156 C 936.199219 538.523438 935.40625 529.234375 934.984375 527.898438 C 936.652344 527.410156 938.292969 527.1875 940.011719 527.6875 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 947.128906 530.453125 L 942.765625 540.273438 C 942.25 540.601562 940.753906 539.488281 940.042969 539.605469 L 942.335938 529.042969 C 944.15625 528.824219 945.632812 529.578125 947.128906 530.453125 "/><path fill-rule="nonzero" fill="currentColor" fill-opacity="1" d="M 949.621094 534.128906 C 950.644531 533.863281 952.871094 536.703125 952.800781 537.78125 L 944.621094 543.179688 C 943.800781 543.589844 942.363281 541.660156 942.667969 540.996094 C 943.953125 540.148438 948.703125 534.367188 949.621094 534.128906 "/></svg><strong>A escada</strong><span>Em crescimento contínuo, aponta o caminho do conhecimento.</span></li>
+    </ul>
+  </div>
+  <div class="galeria">
+    <div class="trilho" id="trilho" tabindex="0" aria-label="Fotos do espaço e das atividades. Use as setas para navegar.">
+      <figure class="quadro" data-grande="img/sala-tapete-2560.webp"><button type="button" aria-label="Ampliar foto: Biblioteca com tapete colorido e luz da manhã"><img src="img/sala-tapete-1280.webp" srcset="img/sala-tapete-640.webp 640w, img/sala-tapete-1280.webp 1280w, img/sala-tapete-1920.webp 1920w, img/sala-tapete-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Biblioteca com tapete colorido e luz da manhã" width="7008" height="3944" loading="lazy" decoding="async"></button><figcaption>Biblioteca com tapete colorido e luz da manhã</figcaption></figure>
+      <figure class="quadro" data-grande="img/atividade-aquario-menino-1920.webp"><button type="button" aria-label="Ampliar foto: Oficina de aquarismo"><img src="img/atividade-aquario-menino-1280.webp" srcset="img/atividade-aquario-menino-640.webp 640w, img/atividade-aquario-menino-1280.webp 1280w, img/atividade-aquario-menino-1920.webp 1920w" sizes="(max-width:700px) 90vw, 70vw" alt="Oficina de aquarismo" width="1920" height="1573" loading="lazy" decoding="async"></button><figcaption>Oficina de aquarismo</figcaption></figure>
+      <figure class="quadro" data-grande="img/recepcao-vertical-1920.webp"><button type="button" aria-label="Ampliar foto: Recepção da Índigo Rei, escola de inteligências"><img src="img/recepcao-vertical-1920.webp" srcset="img/recepcao-vertical-640.webp 360w, img/recepcao-vertical-1280.webp 720w, img/recepcao-vertical-1920.webp 1081w, img/recepcao-vertical-2560.webp 1441w" sizes="(max-width:700px) 34vw, 22vw" alt="Recepção da Índigo Rei, escola de inteligências" width="3944" height="7008" loading="lazy" decoding="async"></button><figcaption>Recepção da Índigo Rei, escola de inteligências</figcaption></figure>
+      <figure class="quadro" data-grande="img/atividade-aquarela-1920.webp"><button type="button" aria-label="Ampliar foto: Aquarela inspirada num livro de dinossauros"><img src="img/atividade-aquarela-1280.webp" srcset="img/atividade-aquarela-640.webp 512w, img/atividade-aquarela-1280.webp 1024w, img/atividade-aquarela-1920.webp 1536w, img/atividade-aquarela-2560.webp 2048w" sizes="(max-width:700px) 34vw, 22vw" alt="Aquarela inspirada num livro de dinossauros" width="2100" height="2625" loading="lazy" decoding="async"></button><figcaption>Aquarela inspirada num livro de dinossauros</figcaption></figure>
+      <figure class="quadro" data-grande="img/cantinho-arte-2560.webp"><button type="button" aria-label="Ampliar foto: Cantinho de arte"><img src="img/cantinho-arte-1280.webp" srcset="img/cantinho-arte-640.webp 640w, img/cantinho-arte-1280.webp 1280w, img/cantinho-arte-1920.webp 1920w, img/cantinho-arte-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Cantinho de arte" width="7008" height="3944" loading="lazy" decoding="async"></button><figcaption>Cantinho de arte</figcaption></figure>
+      <figure class="quadro" data-grande="img/atividade-culinaria-640.webp"><button type="button" aria-label="Ampliar foto: Ateliê de culinária"><img src="img/atividade-culinaria-1280.webp" srcset="img/atividade-culinaria-640.webp 498w, img/atividade-culinaria-1280.webp 996w" sizes="(max-width:700px) 34vw, 22vw" alt="Ateliê de culinária" width="1400" height="1800" loading="lazy" decoding="async"></button><figcaption>Ateliê de culinária</figcaption></figure>
+      <figure class="quadro" data-grande="img/jogo-pedras-2560.webp"><button type="button" aria-label="Ampliar foto: Jogos de estratégia"><img src="img/jogo-pedras-1280.webp" srcset="img/jogo-pedras-640.webp 640w, img/jogo-pedras-1280.webp 1280w, img/jogo-pedras-1920.webp 1920w, img/jogo-pedras-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Jogos de estratégia" width="7008" height="3944" loading="lazy" decoding="async"></button><figcaption>Jogos de estratégia</figcaption></figure>
+      <figure class="quadro" data-grande="img/atividade-argila-1280.webp"><button type="button" aria-label="Ampliar foto: Modelagem com massa"><img src="img/atividade-argila-1280.webp" srcset="img/atividade-argila-640.webp 640w, img/atividade-argila-1280.webp 1280w" sizes="(max-width:700px) 90vw, 70vw" alt="Modelagem com massa" width="1350" height="780" loading="lazy" decoding="async"></button><figcaption>Modelagem com massa</figcaption></figure>
+      <figure class="quadro" data-grande="img/leitura-vertical-1920.webp"><button type="button" aria-label="Ampliar foto: Canto de leitura"><img src="img/leitura-vertical-1920.webp" srcset="img/leitura-vertical-640.webp 360w, img/leitura-vertical-1280.webp 720w, img/leitura-vertical-1920.webp 1081w, img/leitura-vertical-2560.webp 1441w" sizes="(max-width:700px) 34vw, 22vw" alt="Canto de leitura" width="3944" height="7008" loading="lazy" decoding="async"></button><figcaption>Canto de leitura</figcaption></figure>
+      <figure class="quadro" data-grande="img/mesa-longa-2560.webp"><button type="button" aria-label="Ampliar foto: Mesa de projetos"><img src="img/mesa-longa-1280.webp" srcset="img/mesa-longa-640.webp 640w, img/mesa-longa-1280.webp 1280w, img/mesa-longa-1920.webp 1920w, img/mesa-longa-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Mesa de projetos" width="6588" height="3944" loading="lazy" decoding="async"></button><figcaption>Mesa de projetos</figcaption></figure>
+      <figure class="quadro" data-grande="img/parede-azul-2560.webp"><button type="button" aria-label="Ampliar foto: Parede azul, livros e criações das crianças"><img src="img/parede-azul-1280.webp" srcset="img/parede-azul-640.webp 640w, img/parede-azul-1280.webp 1280w, img/parede-azul-1920.webp 1920w, img/parede-azul-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Parede azul, livros e criações das crianças" width="4934" height="3944" loading="lazy" decoding="async"></button><figcaption>Parede azul, livros e criações das crianças</figcaption></figure>
+      <figure class="quadro" data-grande="img/biblioteca-2560.webp"><button type="button" aria-label="Ampliar foto: Estantes de livros e brinquedos"><img src="img/biblioteca-1280.webp" srcset="img/biblioteca-640.webp 640w, img/biblioteca-1280.webp 1280w, img/biblioteca-1920.webp 1920w, img/biblioteca-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Estantes de livros e brinquedos" width="5747" height="3944" loading="lazy" decoding="async"></button><figcaption>Estantes de livros e brinquedos</figcaption></figure>
+      <figure class="quadro" data-grande="img/almofadas-2560.webp"><button type="button" aria-label="Ampliar foto: Almofadas coloridas e livros ao alcance das mãos"><img src="img/almofadas-1280.webp" srcset="img/almofadas-640.webp 640w, img/almofadas-1280.webp 1280w, img/almofadas-1920.webp 1920w, img/almofadas-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Almofadas coloridas e livros ao alcance das mãos" width="7008" height="3944" loading="lazy" decoding="async"></button><figcaption>Almofadas coloridas e livros ao alcance das mãos</figcaption></figure>
+      <figure class="quadro" data-grande="img/recepcao-2560.webp"><button type="button" aria-label="Ampliar foto: Chegada"><img src="img/recepcao-1280.webp" srcset="img/recepcao-640.webp 640w, img/recepcao-1280.webp 1280w, img/recepcao-1920.webp 1920w, img/recepcao-2560.webp 2560w" sizes="(max-width:700px) 90vw, 70vw" alt="Chegada" width="6950" height="3911" loading="lazy" decoding="async"></button><figcaption>Chegada</figcaption></figure>
+    </div>
+    <div class="contem trilho-rodape">
+      <p>SAUS Quadra 4, Asa Sul, Brasília</p>
+      <div class="setas">
+        <button class="seta" type="button" data-dir="-1" aria-label="Fotos anteriores" aria-controls="trilho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m15 18-6-6 6-6"/></svg></button>
+        <button class="seta" type="button" data-dir="1" aria-label="Próximas fotos" aria-controls="trilho"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <dialog class="visor" id="visor" aria-label="Foto ampliada">
+    <figure><img id="visor-img" alt=""><figcaption id="visor-legenda"></figcaption></figure>
+    <button class="seta fechar" type="button" aria-label="Fechar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <button class="seta anterior" type="button" aria-label="Foto anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m15 18-6-6 6-6"/></svg></button>
+    <button class="seta proxima" type="button" aria-label="Próxima foto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></button>
+  </dialog>
+</section>
+
+<section class="claro secao" id="historia" aria-labelledby="historia-titulo">
+  <div class="contem">
+    <div class="aurea">
+      <h2 id="historia-titulo">Nossa história</h2>
+      <p class="lead">A Índigo Rei nasceu da inquietação de uma mãe e educadora que sentia que a infância não pode ser apressada nem enquadrada. De um desejo profundo de fazer diferente, com mais presença e mais sentido.</p>
+    </div>
+    <ol class="linha-tempo">
+      <li style="--cor:var(--petroleo)"><b>25 anos</b><span>Rosa Menna constrói sua trajetória no chão da escola, entre prática pedagógica, escuta e gestão escolar.</span></li>
+      <li style="--cor:var(--ceu)"><b>2022</b><span>O projeto desenhado à mão pela Rosa vira a Educação Personalizada Índigo Rei.</span></li>
+      <li style="--cor:var(--rosa)"><b>2023</b><span>Abre a primeira sala de atendimento, na área central de Brasília.</span></li>
+      <li style="--cor:var(--coral)"><b>2025</b><span>Começa a construção do novo espaço, com o arquiteto Edgar Carvalho.</span></li>
+      <li style="--cor:var(--ouro)"><b>2026</b><span>Inaugura a escola de inteligências na Asa Sul.</span></li>
+      <li style="--cor:var(--noite)"><b>2026</b><span>Recebe Moção de Louvor da Câmara Legislativa do Distrito Federal pela contribuição à educação e à infância.</span></li>
+    </ol>
+    <p class="hoje">Hoje, acompanhamos alunos de mais de 20 escolas do DF, públicas e particulares, e fazemos consultoria para escolas.</p>
+    <div class="rosa">
+      <figure class="video-cartao">
+        <div class="video-moldura">
+          <video controls preload="none" playsinline poster="video/institucional-capa.webp" width="720" height="1280"><source src="video/institucional.mp4" type="video/mp4"></video>
+        </div>
+        <figcaption><strong>Cuidar de uma criança é cuidar de uma família inteira</strong><span class="suave">A inauguração do espaço. 1 min 27 s</span></figcaption>
+      </figure>
+      <div>
+        <h3>Rosa Menna, idealizadora e fundadora</h3>
+        <p class="lead">Pedagoga, neuropsicopedagoga e gestora escolar, com mais de 25 anos dedicados à educação e ao desenvolvimento humano.</p>
+        <p class="suave">Filha de professor, cresceu num ambiente em que aprender era conversar, observar, sentir, criar e dar sentido ao mundo. A Índigo Rei nasce dessa raiz.</p>
+        <blockquote>Minha missão é criar uma escola que respeite ritmos e potências individuais.</blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="branco secao" id="equipe" aria-labelledby="equipe-titulo">
+  <div class="contem">
+    <div class="aurea">
+      <h2 id="equipe-titulo">Equipe pedagógica</h2>
+      <div>
+        <p class="lead">A Rosa não caminha sozinha. Na Índigo, educadores de diferentes áreas compartilham o mesmo propósito: respeitar a singularidade de cada criança.</p>
+        <p class="suave">A equipe estuda junta. Em maio de 2026, viveu uma formação sobre Espaço Educador e Materialidade, inspirada na abordagem Reggio Emilia.</p>
+      </div>
+    </div>
+    <figure class="equipe-foto">
+      <img src="img/equipe-1280.webp" srcset="img/equipe-640.webp 640w, img/equipe-1280.webp 1280w, img/equipe-2048.webp 2048w" sizes="(max-width:1240px) 100vw, 1240px" alt="Sete educadoras sorrindo em pé atrás da mesa de projetos, coberta de papéis coloridos, lápis e plantas" width="2085" height="1364" loading="lazy" decoding="async">
+      <figcaption>Formação pedagógica no espaço da Índigo, maio de 2026.</figcaption>
+    </figure>
+    <ul class="pessoas" id="pessoas-pedagogica">
+      <li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Thaís Plácido</h3><p class="pessoa-papel">Psicóloga<span class="registro">CRP 01/22267</span></p></div><p class="pessoa-bio">Especialista em Saúde Mental Infantojuvenil, Transtorno do Espectro Autista (TEA) e Deficiência Intelectual (DI). Tem formação em Neuropsicologia e faz avaliação neuropsicológica de crianças e adolescentes.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Ana Catarina Paiva</h3><p class="pessoa-papel">Psicopedagoga</p></div><p class="pessoa-bio">Mestre em Educação pela Universidade Católica de Brasília e pedagoga pela UnB, com especialização em Psicopedagogia, Coordenação e Gestão Escolar e Orientação Educacional. Especialista em altas habilidades e superdotação, com formação em Educação Bilíngue.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Nathália Silva</h3><p class="pessoa-papel">Psicopedagoga</p></div><p class="pessoa-bio">Pedagoga e orientadora educacional, com formação em Neuropsicopedagogia, está há 23 anos na educação. Apaixonada pelo universo infantil, acredita na aprendizagem lúdica, que respeita o ritmo e as potencialidades de cada criança.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Bruna Maia</h3><p class="pessoa-papel">Professora e psicopedagoga</p></div><p class="pessoa-bio">Pedagoga há 12 anos, pós-graduada em Psicopedagogia e em Gestão e Orientação Educacional. Acredita que cada criança aprende de um jeito único e busca tornar o aprendizado mais leve, afetivo e cheio de descobertas.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Paula Ferro</h3><p class="pessoa-papel">Professora</p></div><p class="pessoa-bio">Pedagoga há 18 anos, é professora de Educação Infantil e dos anos iniciais do Ensino Fundamental, com experiência em contraturno escolar e escolas bilíngues.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Mariana Esser</h3><p class="pessoa-papel">Professora</p></div><p class="pessoa-bio">Pedagoga e professora há 15 anos, habilitada em Português e Inglês e especialista em Ensino Bilíngue. Prepara estudantes para vestibulares e certificações e apoia alunos do 5º ano com dificuldades de aprendizagem. Acredita que o ensino é para todos e transforma vidas.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Bianca Cruz</h3><p class="pessoa-papel">Arte-educadora</p></div><p class="pessoa-bio">Especialista em Psicomotricidade Relacional, traz a visão sistêmica e arteterapêutica para a sala de aula, do Fundamental I ao Ensino Médio. Na prática dela, o movimento, o sentir e a criação visual se encontram para apoiar o desenvolvimento do aluno em todas as dimensões.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Cecília Lodi</h3><p class="pessoa-papel">Professora</p></div><p class="pessoa-bio">Pedagoga que acredita na arte como ponte para o aprendizado. Com criatividade e propostas lúdicas, busca despertar a curiosidade, estimular o letramento e tornar a aprendizagem mais significativa e cheia de descobertas.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Bella Batista</h3><p class="pessoa-papel">Professora</p></div><p class="pessoa-bio">Educadora com experiência em alfabetização, ensino bilíngue e educação inclusiva. Acredita numa educação acolhedora, que respeita as individualidades e faz da aprendizagem um caminho de descobertas, autonomia e confiança.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Ana Luisa Machado</h3><p class="pessoa-papel">Professora e mentora de estudos</p></div><p class="pessoa-bio">Há 8 anos ensina inglês para crianças e, há 6, tem foco em crianças neurodivergentes, alfabetização e aprendizagem especializada.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Laís Soares</h3><p class="pessoa-papel">Professora</p></div><p class="pessoa-bio">Professora e instrutora desde 2019, ajuda crianças, jovens e adultos a superar dificuldades e desenvolver seu potencial. Tem formação em inglês avançado e cursa Licenciatura em Matemática na UnB.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Samuel Souza</h3><p class="pessoa-papel">Professor e mentor de estudos</p></div><p class="pessoa-bio">Licenciado em Geografia pelo CEUB e em História pela Unifatecie, tem mais de 19 anos de experiência na educação, com atuação em cursos pré-vestibulares, no ensino de Ciências Humanas e em estratégias de aprendizagem.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Luciano Lebarbenchon</h3><p class="pessoa-papel">Professor e mentor de estudos</p></div><p class="pessoa-bio">Engenheiro mecânico pela UnB, dá aulas de todas as disciplinas do Ensino Fundamental ao Médio. Com empatia e conexão, adapta o ensino ao perfil de cada aluno para um aprendizado leve e personalizado.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Gabriel Simões</h3><p class="pessoa-papel">Professor de Matemática e Física</p></div><p class="pessoa-bio">Há 7 anos ensina Matemática e Física a partir de aplicações da ciência no cotidiano.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Marcelo Ceolin</h3><p class="pessoa-papel">Professor de Matemática e Física</p></div><p class="pessoa-bio">Estudante de Engenharia Automotiva na UnB e professor particular de Matemática e Física. Com abordagem paciente e personalizada, fortalece a confiança dos alunos e ajuda a construir autonomia nos estudos.</p></li>
+<li class="pessoa"><div class="pessoa-texto"><h3 class="pessoa-nome">Deborah Portela</h3><p class="pessoa-papel">Estagiária em Psicopedagogia</p></div><p class="pessoa-bio">Tem 15 anos de experiência com a infância, em educação, inclusão e ABA. Cursa Psicopedagogia e transforma experiências em possibilidades de aprendizagem.</p></li>
+    </ul>
+    <button class="ver-equipe" type="button" aria-expanded="false" aria-controls="pessoas-pedagogica" hidden>Ver a equipe completa</button>
+    <div class="gestao">
+      <h3>Gestão e apoio</h3>
+      <ul class="pessoas">
+        <li class="pessoa"><div class="pessoa-texto"><h4 class="pessoa-nome">Cristiano Menna</h4><p class="pessoa-papel">Proprietário</p></div></li>
+<li class="pessoa"><div class="pessoa-texto"><h4 class="pessoa-nome">Davi Ceolin</h4><p class="pessoa-papel">Gestão financeira e operação</p></div></li>
+<li class="pessoa"><div class="pessoa-texto"><h4 class="pessoa-nome">Wanda Raquel</h4><p class="pessoa-papel">Paisagista</p></div><p class="pessoa-bio">Paisagista há mais de 15 anos, especialista em plantas, arranjos e decoração de ambientes.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="visita escuro secao" id="visita" aria-labelledby="visita-titulo">
+  <div class="contem aurea">
+    <div>
+      <h2 id="visita-titulo">Venha conhecer a Índigo</h2>
+      <p class="lead suave" style="margin-top:1.4rem">Conte um pouco sobre a sua criança e marcamos uma visita ao espaço.</p>
+      <div class="acoes">
+        <a class="botao botao-ouro" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e gostaria de agendar uma visita ao espaço."><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Agendar visita pelo WhatsApp</a>
+        <a class="botao botao-linha" href="https://cadastro.indigorei.com.br">Cadastro da família</a>
+      </div>
+    </div>
+    <ul class="contatos">
+      <li><small>Endereço</small><address>SAUS Quadra 4, Bloco A, Lote 9/10<br>Ed. Victória Office Tower, salas 733 a 737<br>Asa Sul, Brasília, DF</address><a href="https://www.google.com/maps/search/?api=1&amp;query=Victória+Office+Tower+SAUS+Quadra+4+Brasília" rel="noopener" target="_blank">Abrir no mapa</a></li>
+      <li><small>WhatsApp</small><a href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero conhecer o trabalho de vocês.">(61) 99603-8293</a></li>
+      <li><small>Instagram</small><a href="https://www.instagram.com/indigo.rei/" rel="noopener" target="_blank">@indigo.rei</a></li>
+      <li><small>E-mail</small><a href="mailto:institutoindigorei@gmail.com">institutoindigorei@gmail.com</a></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="contem">
+    <img src="img/logo-claro-420.webp" alt="Índigo Rei" width="420" height="107" loading="lazy">
+    <nav aria-label="Rodapé">
+      <a href="#abordagem">Abordagem</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#espaco">Espaço</a>
+      <a href="#historia">História</a>
+      <a href="https://cadastro.indigorei.com.br">Cadastro da família</a>
+      <a href="privacidade.html">Privacidade e cookies</a>
+    </nav>
+    <p style="margin:0">Instituto Índigo Rei, escola de inteligências. Brasília, DF.</p>
+  </div>
+</footer>
+
+<div class="aviso-cookies" id="aviso-cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <p>Usamos cookies do Google Analytics para melhorar o site. Você escolhe, e o site funciona igual nos dois casos. <a href="privacidade.html">Saiba mais</a></p>
+  <div class="aviso-acoes">
+    <button type="button" class="botao botao-ouro" data-cookies="sim">Aceitar</button>
+    <button type="button" class="botao botao-linha" data-cookies="nao">Recusar</button>
+  </div>
+</div>
+
+<a class="wa-flutuante" id="wa-flutuante" href="https://wa.me/5561996038293" data-wa="Olá! Vim pelo site da Índigo Rei e quero conhecer o trabalho de vocês." aria-label="Conversar pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg><span>WhatsApp</span></a>
+
+<script>
+(function(){
+  var doc = document.documentElement;
+  var reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- medição ---------- */
+  var MEDICAO_URL = 'https://script.google.com/macros/s/AKfycbxW1pR5aP8xA7_2gnHQIqGgS-gLFifSCLPSS4fPupDQSUmudYQLr7fLQS5HKJF6XFxT/exec';
+  var GA_ID = 'G-WCRCWRYNHL';
+  var VERSAO_SITE = '1';
+  var CHAVE_COOKIES = 'indigo-cookies';
+  var gaLigado = false;
+
+  function guardado(chave, valor) {
+    try {
+      if (valor === undefined) return window.localStorage.getItem(chave);
+      if (valor === null) window.localStorage.removeItem(chave); else window.localStorage.setItem(chave, valor);
+    } catch (e) { return null; }
+  }
+  var ORIGEM = (function () {
+    try {
+      var h = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, '') : '';
+      return h && h !== location.hostname ? h : 'direto';
+    } catch (e) { return 'direto'; }
+  })();
+  var APARELHO = (window.matchMedia('(pointer: coarse)').matches || /Mobi|Android|iPhone/.test(navigator.userAgent)) ? 'celular' : 'computador';
+  var LUGARES = { inicio: 'abertura', abordagem: 'abordagem', servicos: 'serviços', espaco: 'espaço', historia: 'história', equipe: 'equipe', visita: 'contato' };
+  var EVENTOS_GA = { 'WhatsApp': 'clique_whatsapp', 'Cadastro da família': 'clique_cadastro', 'Instagram': 'clique_instagram', 'Mapa': 'clique_mapa', 'E-mail': 'clique_email', 'Vídeo': 'video_play' };
+  function lugar(el) {
+    if (el.closest('#wa-flutuante')) return 'botão flutuante';
+    if (el.closest('.topo')) return 'topo';
+    if (el.closest('#menu')) return 'menu';
+    if (el.closest('.rodape')) return 'rodapé';
+    var s = el.closest('section[id]');
+    return s ? (LUGARES[s.id] || s.id) : 'página';
+  }
+  /* Conta o clique sem nenhum dado pessoal: ação, lugar, serviço, aparelho e site de origem. */
+  function contar(acao, el, servico) {
+    var dados = { acao: acao, onde: el ? lugar(el) : '', servico: servico || '', aparelho: APARELHO, origem: ORIGEM, versao: VERSAO_SITE };
+    if (/^https:\/\/script\.google\.com\//.test(MEDICAO_URL)) {
+      var q = Object.keys(dados).map(function (k) { return k + '=' + encodeURIComponent(dados[k]); }).join('&');
+      try { fetch(MEDICAO_URL + '?' + q, { mode: 'no-cors', credentials: 'omit', keepalive: true }).catch(function () {}); } catch (e) {}
+    }
+    if (gaLigado && window.gtag) window.gtag('event', EVENTOS_GA[acao] || 'clique', { local: dados.onde, servico: dados.servico });
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var h = a.getAttribute('href');
+    if (a.hasAttribute('data-wa')) {
+      var item = a.closest('.lista-servicos li');
+      contar('WhatsApp', a, item ? item.querySelector('h3').textContent : '');
+    } else if (/cadastro\.indigorei\.com\.br/.test(h)) contar('Cadastro da família', a);
+    else if (/instagram\.com/.test(h)) contar('Instagram', a);
+    else if (/google\.com\/maps/.test(h)) contar('Mapa', a);
+    else if (/^mailto:/.test(h)) contar('E-mail', a);
+  }, true);
+
+  /* Google Analytics só depois do aceite */
+  function ligarGA() {
+    if (gaLigado || !/^G-[A-Z0-9]+$/.test(GA_ID)) return;
+    gaLigado = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', GA_ID);
+    var sc = document.createElement('script');
+    sc.async = true; sc.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(sc);
+  }
+  var aviso = document.getElementById('aviso-cookies');
+  if (/^G-[A-Z0-9]+$/.test(GA_ID)) {
+    var escolha = guardado(CHAVE_COOKIES);
+    if (escolha === 'sim') ligarGA();
+    else if (escolha !== 'nao') {
+      var mostrarAviso = function () {
+        if (window.scrollY < 40) return;
+        window.removeEventListener('scroll', mostrarAviso);
+        aviso.hidden = false; doc.classList.add('com-aviso');
+      };
+      window.addEventListener('scroll', mostrarAviso, { passive: true });
+      mostrarAviso();
+    }
+    aviso.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-cookies]');
+      if (!b) return;
+      var sim = b.getAttribute('data-cookies') === 'sim';
+      guardado(CHAVE_COOKIES, sim ? 'sim' : 'nao');
+      aviso.hidden = true; doc.classList.remove('com-aviso');
+      if (sim) ligarGA();
+    });
+  }
+
+  /* WhatsApp com mensagem pronta */
+  document.querySelectorAll('[data-wa]').forEach(function(a){
+    a.href = 'https://wa.me/5561996038293?text=' + encodeURIComponent(a.getAttribute('data-wa'));
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+
+  /* topo e menu */
+  var topo = document.getElementById('topo');
+  var menuBotao = document.querySelector('.menu-botao');
+  var menu = document.getElementById('menu');
+  function fecharMenu(){ menu.hidden = true; menuBotao.setAttribute('aria-expanded','false'); menuBotao.setAttribute('aria-label','Abrir menu'); document.body.style.overflow=''; }
+  menuBotao.addEventListener('click', function(){
+    var abrir = menu.hidden;
+    menu.hidden = !abrir;
+    menuBotao.setAttribute('aria-expanded', String(abrir));
+    menuBotao.setAttribute('aria-label', abrir ? 'Fechar menu' : 'Abrir menu');
+    document.body.style.overflow = abrir ? 'hidden' : '';
+    if (abrir) topo.classList.add('solido'); else atualizar();
+  });
+  menu.addEventListener('click', function(e){ if (e.target.closest('a')) fecharMenu(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !menu.hidden) { fecharMenu(); menuBotao.focus(); } });
+
+  /* abertura: íris */
+  var abertura = document.getElementById('inicio');
+  var palco = document.getElementById('palco');
+  var filme = document.getElementById('filme');
+  var iris = document.getElementById('iris');
+  var texto = document.getElementById('abertura-texto');
+  var legenda = document.getElementById('legenda');
+  var veu = document.getElementById('veu');
+  var dica = document.getElementById('dica');
+  var waFlutuante = document.getElementById('wa-flutuante');
+  var geo = {};
+  var PUPILA = 0.40; /* raio da pupila em relação ao raio da íris (igual ao desenho) */
+
+  function medir(){
+    var w = palco.clientWidth, h = palco.clientHeight;
+    var retrato = w / h < 0.8 || w <= 700;
+    var d, cx, cy;
+    if (retrato) {
+      /* a íris ocupa o espaço que sobra acima do texto */
+      var livre = h - texto.offsetHeight - 64 - 56; /* 16px de respiro entre os raios e o título */
+      d = Math.max(150, Math.min(w * 0.9, h * 0.5, livre));
+      cx = w / 2; cy = 64 + 12 + Math.max(0, (livre - d) / 2) + d / 2;
+    } else {
+      d = Math.min(h * 0.82, w * 0.52);
+      cx = Math.max(w * 0.71, w - d / 2 - w * 0.03); cy = h * 0.53;
+    }
+    geo = {w:w, h:h, d:d, cx:cx, cy:cy, retrato:retrato,
+      r0: d / 2 * PUPILA,
+      rMax: Math.hypot(Math.max(cx, w - cx), Math.max(cy, h - cy)) + 2};
+    palco.style.setProperty('--d', d + 'px');
+    palco.style.setProperty('--cx', cx + 'px');
+    palco.style.setProperty('--cy', cy + 'px');
+    escolherFilme();
+  }
+
+  var filmeAtual = '';
+  function escolherFilme(){
+    var economia = navigator.connection && navigator.connection.saveData;
+    var base = geo.retrato ? 'video/espaco-vertical' : 'video/espaco-horizontal';
+    filme.poster = base + '-capa.webp';
+    if (reduzir || economia) return;
+    if (filmeAtual === base) return;
+    filmeAtual = base;
+    filme.src = base + '.mp4';
+    filme.load();
+    var p = filme.play(); if (p && p.catch) p.catch(function(){});
+  }
+
+  function suave(t){ t = Math.min(1, Math.max(0, t)); return t * t * (3 - 2 * t); }
+  var ultimo = -1;
+  function atualizar(){
+    var r = abertura.getBoundingClientRect();
+    var curso = r.height - geo.h;
+    var p = curso > 0 ? Math.min(1, Math.max(0, -r.top / curso)) : 0;
+    if (!reduzir && Math.abs(p - ultimo) > 0.0005) {
+      ultimo = p;
+      var t = suave((p - 0.06) / 0.62);
+      var raio = geo.r0 + (geo.rMax - geo.r0) * t;
+      filme.style.clipPath = 'circle(' + raio.toFixed(1) + 'px at ' + geo.cx.toFixed(1) + 'px ' + geo.cy.toFixed(1) + 'px)';
+      iris.style.transform = 'scale(' + (1 + t * 2.6).toFixed(3) + ')';
+      iris.style.opacity = Math.max(0, 1 - t * 1.5).toFixed(3);
+      texto.style.opacity = Math.max(0, 1 - t * 2.4).toFixed(3);
+      texto.style.visibility = t > 0.45 ? 'hidden' : '';
+      veu.style.opacity = (t * 0.95).toFixed(3);
+      legenda.style.opacity = suave((p - 0.62) / 0.2).toFixed(3);
+      dica.style.visibility = p > 0.02 ? 'hidden' : '';
+    }
+    if (menu.hidden) topo.classList.toggle('solido', r.bottom <= 80 || (!reduzir && p > 0.1) || (reduzir && r.top < -40));
+    waFlutuante.classList.toggle('visivel', r.bottom < geo.h * 0.6);
+  }
+
+  if (reduzir) doc.classList.add('estatico');
+  medir();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ medir(); ultimo = -1; atualizar(); });
+  filme.style.clipPath = 'circle(' + geo.r0 + 'px at ' + geo.cx + 'px ' + geo.cy + 'px)';
+  atualizar();
+  requestAnimationFrame(function(){ doc.classList.add('pronto'); });
+  var pedido = false;
+  window.addEventListener('scroll', function(){ if (!pedido) { pedido = true; requestAnimationFrame(function(){ pedido = false; atualizar(); }); } }, {passive:true});
+  var esperaMedida;
+  window.addEventListener('resize', function(){ clearTimeout(esperaMedida); esperaMedida = setTimeout(function(){ medir(); ultimo = -1; atualizar(); }, 120); });
+  /* pausa o filme quando a abertura sai da tela */
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function(es){ es.forEach(function(e){ if (!filme.src) return; if (e.isIntersecting) { var p = filme.play(); if (p && p.catch) p.catch(function(){}); } else filme.pause(); }); }).observe(abertura);
+  }
+
+  /* entradas das seções: cada parte sobe uma vez quando chega na tela, em sequência */
+  clearTimeout(window.__revelar);
+  var partes = document.querySelectorAll([
+    'main section:not(.abertura) h2', '.abordagem h3', '.rosa h3', 'main .lead', 'main p.suave', '.verbos',
+    '.pilares > li', '.video-cartao', '.abas', '.painel:not([hidden]) .painel-foto', '.painel:not([hidden]) .lista-servicos',
+    '.ser-indigo', '.simbolos > li', '.trilho', '.linha-tempo > li', '.hoje', '.rosa blockquote', '.equipe-foto', '.pessoas > li', '.gestao h3', '.visita .acoes', '.contatos > li'
+  ].join(','));
+  if ('IntersectionObserver' in window) {
+    var vistos = new IntersectionObserver(function(entradas){
+      var novas = entradas.filter(function(e){ return e.isIntersecting; }).map(function(e){ return e.target; });
+      novas.sort(function(a, b){ return a.compareDocumentPosition(b) & 4 ? -1 : 1; });
+      novas.forEach(function(el, i){
+        el.style.setProperty('--atraso', Math.min(i, 6) * 80 + 'ms');
+        el.classList.add('visto');
+        vistos.unobserve(el);
+      });
+    }, {rootMargin: '0px 0px -6% 0px', threshold: 0.08});
+    Array.prototype.forEach.call(partes, function(el){ el.classList.add('revelar'); vistos.observe(el); });
+  }
+
+  /* equipe: no celular mostra 6 pessoas e um botão para ver todas */
+  var listaEquipe = document.getElementById('pessoas-pedagogica');
+  var verEquipe = document.querySelector('.ver-equipe');
+  if (listaEquipe && verEquipe && listaEquipe.children.length > 6 && window.matchMedia('(max-width:700px)').matches) {
+    listaEquipe.classList.add('recolhida');
+    verEquipe.textContent = 'Ver a equipe completa (' + listaEquipe.children.length + ' pessoas)';
+    verEquipe.hidden = false;
+    verEquipe.addEventListener('click', function(){
+      listaEquipe.classList.remove('recolhida');
+      verEquipe.setAttribute('aria-expanded', 'true');
+      verEquipe.hidden = true;
+      var setima = listaEquipe.children[6];
+      if (setima) { setima.setAttribute('tabindex', '-1'); setima.focus({preventScroll: true}); }
+    });
+  }
+
+  /* abas de serviços */
+  var abas = Array.prototype.slice.call(document.querySelectorAll('.aba'));
+  function selecionar(aba, foco){
+    abas.forEach(function(a){
+      var sel = a === aba;
+      a.setAttribute('aria-selected', String(sel));
+      a.tabIndex = sel ? 0 : -1;
+      document.getElementById(a.getAttribute('aria-controls')).hidden = !sel;
+    });
+    if (foco) aba.focus();
+    if (aba.scrollIntoView && window.innerWidth <= 880) aba.scrollIntoView({block:'nearest', inline:'nearest'});
+  }
+  abas.forEach(function(aba, i){
+    aba.addEventListener('click', function(){ selecionar(aba); });
+    aba.addEventListener('keydown', function(e){
+      var n = abas.length, alvo = null;
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') alvo = abas[(i + 1) % n];
+      if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') alvo = abas[(i - 1 + n) % n];
+      if (e.key === 'Home') alvo = abas[0];
+      if (e.key === 'End') alvo = abas[n - 1];
+      if (alvo) { e.preventDefault(); selecionar(alvo, true); }
+    });
+  });
+
+  /* vídeos com botão grande de tocar */
+  document.querySelectorAll('.video-moldura video').forEach(function(v){
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'tocar';
+    b.setAttribute('aria-label', 'Tocar vídeo: ' + v.closest('figure').querySelector('strong').textContent);
+    b.innerHTML = '<span><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4.5v15l13-7.5z"/></svg></span>';
+    v.removeAttribute('controls');
+    v.parentNode.appendChild(b);
+    b.addEventListener('click', function(){ v.controls = true; b.remove(); v.play(); });
+    var contado = false;
+    v.addEventListener('play', function(){
+      document.querySelectorAll('.video-moldura video').forEach(function(o){ if (o !== v) o.pause(); });
+      if (b.isConnected) { v.controls = true; b.remove(); }
+      if (!contado) { contado = true; contar('Vídeo', v, v.closest('figure').querySelector('strong').textContent); }
+    });
+  });
+
+  /* galeria e visor */
+  var trilho = document.getElementById('trilho');
+  document.querySelectorAll('.setas .seta').forEach(function(s){
+    s.addEventListener('click', function(){ trilho.scrollBy({left: Number(s.dataset.dir) * trilho.clientWidth * 0.8, behavior: reduzir ? 'auto' : 'smooth'}); });
+  });
+  trilho.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); trilho.scrollBy({left:(e.key === 'ArrowRight' ? 1 : -1) * trilho.clientWidth * 0.6, behavior: reduzir ? 'auto' : 'smooth'}); }
+  });
+  var quadros = Array.prototype.slice.call(trilho.querySelectorAll('.quadro'));
+  var visor = document.getElementById('visor');
+  var visorImg = document.getElementById('visor-img');
+  var visorLegenda = document.getElementById('visor-legenda');
+  var atual = 0, origem = null;
+  function mostrar(i){
+    atual = (i + quadros.length) % quadros.length;
+    var q = quadros[atual];
+    var nova = new URL(q.dataset.grande, location.href).href;
+    if (visorImg.src !== nova) {
+      visorImg.style.opacity = '0';
+      visorImg.onload = function(){ visorImg.style.opacity = ''; };
+      visorImg.src = nova;
+    }
+    visorImg.alt = q.querySelector('img').alt;
+    visorLegenda.textContent = q.querySelector('figcaption').textContent;
+  }
+  quadros.forEach(function(q, i){
+    q.querySelector('button').addEventListener('click', function(){
+      origem = this; mostrar(i);
+      if (visor.showModal) visor.showModal(); else visor.setAttribute('open','');
+    });
+  });
+  visor.querySelector('.fechar').addEventListener('click', function(){ visor.close(); });
+  visor.querySelector('.anterior').addEventListener('click', function(){ mostrar(atual - 1); });
+  visor.querySelector('.proxima').addEventListener('click', function(){ mostrar(atual + 1); });
+  visor.addEventListener('keydown', function(e){ if (e.key === 'ArrowRight') mostrar(atual + 1); if (e.key === 'ArrowLeft') mostrar(atual - 1); });
+  visor.addEventListener('click', function(e){ if (e.target === visor || e.target.tagName === 'FIGURE') visor.close(); });
+  visor.addEventListener('close', function(){ if (origem) origem.focus(); });
+})();
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "dc53e95fcc144ea996da2a188c865e34"}'></script>
+</body>
+</html>

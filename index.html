@@ -840,14 +840,15 @@ p{margin:0 0 1.1em;max-width:62ch}
   }
 
   var filmeAtual = '';
+  var VERSAO_FILME = '2'; /* mude ao trocar os filmes da abertura, para o navegador não usar o antigo guardado */
   function escolherFilme(){
     var economia = navigator.connection && navigator.connection.saveData;
     var base = geo.retrato ? 'video/espaco-vertical' : 'video/espaco-horizontal';
-    filme.poster = base + '-capa.webp';
+    filme.poster = base + '-capa.webp?v=' + VERSAO_FILME;
     if (reduzir || economia) return;
     if (filmeAtual === base) return;
     filmeAtual = base;
-    filme.src = base + '.mp4';
+    filme.src = base + '.mp4?v=' + VERSAO_FILME;
     filme.load();
     var p = filme.play(); if (p && p.catch) p.catch(function(){});
   }

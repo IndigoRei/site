@@ -309,6 +309,15 @@ p{margin:0 0 1.1em;max-width:62ch}
   .pessoa-bio{grid-column:1 / -1;margin-top:1rem;max-width:none}
 }
 
+/* depoimentos */
+.depoimentos{list-style:none;margin:clamp(3rem,6vw,4.5rem) 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(2.5rem,5vw,3.75rem) clamp(2rem,5vw,5rem)}
+.depoimentos li{padding-left:1.4rem;border-left:4px solid var(--cor)}
+.depoimentos blockquote{margin:0;font-family:var(--serif);font-size:var(--t-sub);line-height:1.42;color:var(--noite);max-width:34ch}
+.depoimentos blockquote p{margin:0;text-wrap:pretty}
+.depoimentos .num{font-family:var(--sans);font-size:.9em}
+.depoimentos .quem{margin:.85rem 0 0;font-size:var(--t-pequeno);color:var(--texto-2)}
+@media (max-width:700px){.depoimentos{grid-template-columns:minmax(0,1fr)}.depoimentos blockquote{font-size:1.25rem}}
+
 /* visita */
 .visita h2{line-height:1.04}
 .visita .acoes{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2.2rem}
@@ -644,6 +653,21 @@ p{margin:0 0 1.1em;max-width:62ch}
   </div>
 </section>
 
+<section class="claro secao" id="depoimentos" aria-labelledby="depoimentos-titulo">
+  <div class="contem">
+    <div class="aurea">
+      <h2 id="depoimentos-titulo">O que as famílias contam</h2>
+      <p class="lead">Recados que chegaram pelo WhatsApp da Índigo, compartilhados com autorização das famílias.</p>
+    </div>
+    <ul class="depoimentos">
+      <li style="--cor:var(--coral)"><blockquote><p>Tem sido transformador o acompanhamento com você! É impressionante ver o avanço dele e como ele se encanta e se engaja nas atividades!</p></blockquote><p class="quem">Mãe de aluno</p></li>
+      <li style="--cor:var(--petroleo)"><blockquote><p>Vocês prestam um serviço maravilhoso e com muito amor. Sempre fui e continuarei sendo seu fã!</p></blockquote><p class="quem">Pai de aluno</p></li>
+      <li style="--cor:var(--rosa)"><blockquote><p>Tirou <span class="num">10</span> na prova de matemática, com muita autonomia. A professora disse que ela estava sabendo de tudo!</p></blockquote><p class="quem">Mãe de aluna</p></li>
+      <li style="--cor:var(--ouro)"><blockquote><p>Passou em todas! Obrigada por tudo. Você e seu time foram essenciais.</p></blockquote><p class="quem">Mãe de aluno</p></li>
+    </ul>
+  </div>
+</section>
+
 <section class="visita escuro secao" id="visita" aria-labelledby="visita-titulo">
   <div class="contem aurea">
     <div>
@@ -715,7 +739,7 @@ p{margin:0 0 1.1em;max-width:62ch}
     } catch (e) { return 'direto'; }
   })();
   var APARELHO = (window.matchMedia('(pointer: coarse)').matches || /Mobi|Android|iPhone/.test(navigator.userAgent)) ? 'celular' : 'computador';
-  var LUGARES = { inicio: 'abertura', abordagem: 'abordagem', servicos: 'serviços', espaco: 'espaço', historia: 'história', equipe: 'equipe', visita: 'contato' };
+  var LUGARES = { inicio: 'abertura', abordagem: 'abordagem', servicos: 'serviços', espaco: 'espaço', historia: 'história', equipe: 'equipe', depoimentos: 'depoimentos', visita: 'contato' };
   var EVENTOS_GA = { 'WhatsApp': 'clique_whatsapp', 'Cadastro da família': 'clique_cadastro', 'Instagram': 'clique_instagram', 'Mapa': 'clique_mapa', 'E-mail': 'clique_email', 'Vídeo': 'video_play' };
   function lugar(el) {
     if (el.closest('#wa-flutuante')) return 'botão flutuante';
@@ -896,7 +920,7 @@ p{margin:0 0 1.1em;max-width:62ch}
   var partes = document.querySelectorAll([
     'main section:not(.abertura) h2', '.abordagem h3', '.rosa h3', 'main .lead', 'main p.suave', '.verbos',
     '.pilares > li', '.video-cartao', '.abas', '.painel:not([hidden]) .painel-foto', '.painel:not([hidden]) .lista-servicos',
-    '.ser-indigo', '.simbolos > li', '.trilho', '.linha-tempo > li', '.hoje', '.rosa blockquote', '.equipe-foto', '.pessoas > li', '.gestao h3', '.visita .acoes', '.contatos > li'
+    '.ser-indigo', '.simbolos > li', '.trilho', '.linha-tempo > li', '.hoje', '.rosa blockquote', '.equipe-foto', '.pessoas > li', '.gestao h3', '.depoimentos > li', '.visita .acoes', '.contatos > li'
   ].join(','));
   if ('IntersectionObserver' in window) {
     var vistos = new IntersectionObserver(function(entradas){

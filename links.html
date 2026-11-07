@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Índigo Rei | Links</title>
+<meta name="description" content="Clube de Férias, matrículas 2027, Contraturno, avaliação diagnóstica e WhatsApp da Índigo Rei, escola de inteligências em Brasília.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://indigorei.com.br/links">
+<meta name="theme-color" content="#041E3A">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Índigo Rei">
+<meta property="og:title" content="Índigo Rei, educação para crianças únicas">
+<meta property="og:description" content="Clube de Férias, matrículas 2027 e WhatsApp da Índigo Rei.">
+<meta property="og:url" content="https://indigorei.com.br/links">
+<meta property="og:image" content="https://indigorei.com.br/img/compartilhar.jpg">
+<link rel="preload" href="fontes/marcellus-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fontes/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Marcellus";src:url(fontes/marcellus-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-300.woff2) format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fontes/poppins-500.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+:root{
+  --noite:#062D56;--abismo:#041E3A;--nevoa:#EDF2F6;--branco:#FFFFFF;
+  --texto:#1B2F45;--texto-2:#4A5F75;--claro:#F2F5F8;--claro-2:#B3C4D5;
+  --ouro:#C89C36;--ouro-2:#E0B85C;
+  --serif:"Marcellus","Iowan Old Style",Georgia,serif;
+  --sans:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --ease-out:cubic-bezier(.23,1,.32,1);
+  --lado:clamp(20px,5vw,40px);
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;min-height:100dvh;background:var(--abismo);color:var(--claro);font:400 1rem/1.6 var(--sans)}
+a,button{-webkit-tap-highlight-color:transparent}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ouro-2);outline-offset:3px;border-radius:4px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;text-wrap:balance}
+p{margin:0}
+
+/* foto do espaço com a marca por cima */
+.foto{position:relative;height:clamp(300px,46svh,440px);overflow:hidden;background:var(--noite)}
+.foto img.espaco{width:100%;height:100%;object-fit:cover;object-position:50% 38%}
+.foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,30,58,0) 34%,rgba(4,30,58,.72) 74%,var(--abismo) 100%)}
+.marca{position:absolute;left:var(--lado);right:var(--lado);bottom:22px;z-index:1;padding-bottom:env(safe-area-inset-bottom,0)}
+.marca img{height:46px;width:auto}
+.marca p{margin-top:.55rem;color:var(--claro-2);font-weight:300;font-size:.98rem;letter-spacing:.01em}
+
+main{padding:8px var(--lado) 0}
+.bloco{padding-block:28px 8px}
+.bloco > h2{font-size:1.65rem;line-height:1.15;margin-bottom:16px}
+
+/* campanhas do momento */
+.cartoes{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.cartao{background:var(--noite);border-radius:20px;padding:22px 20px 20px}
+.cartao h3{font-size:1.6rem;line-height:1.15}
+.cartao p{margin-top:.6rem;color:var(--claro-2);font-weight:300;line-height:1.6}
+.acoes{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.botao{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:48px;padding:.7rem 1.25rem;border-radius:999px;font:500 .95rem/1.2 var(--sans);text-decoration:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;transition:background-color .2s ease,scale .16s var(--ease-out)}
+.botao svg{width:19px;height:19px;flex:none}
+.botao-ouro{background:var(--ouro);color:var(--abismo)}
+.botao-linha{background:rgba(242,245,248,.12);color:var(--claro)}
+.botao:active{scale:.97}
+@media (max-width:519px){.acoes{flex-direction:column}.acoes .botao{width:100%}}
+
+/* linhas: um toque leva ao WhatsApp ou ao endereço */
+.linhas{list-style:none;margin:0;padding:0}
+.linha{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;padding:18px 0;border-top:1px solid rgba(242,245,248,.14);text-decoration:none;touch-action:manipulation;transition:opacity .2s ease}
+.linhas li:last-child .linha{border-bottom:1px solid rgba(242,245,248,.14)}
+.linha strong{display:block;font-family:var(--serif);font-weight:400;font-size:1.3rem;line-height:1.2}
+.linha span{display:block;margin-top:.3rem;color:var(--claro-2);font-weight:300;font-size:.95rem;line-height:1.5}
+.linha .icone{width:44px;height:44px;border-radius:999px;display:grid;place-items:center;background:rgba(242,245,248,.1);color:var(--ouro-2)}
+.linha .icone svg{width:20px;height:20px}
+.linha:active{opacity:.7}
+
+/* contato, no claro */
+.claro{margin:36px calc(var(--lado) * -1) 0;padding:32px var(--lado) 36px;background:var(--nevoa);color:var(--texto)}
+.claro > h2{color:var(--noite)}
+.claro .linha{border-color:rgba(6,45,86,.14)}
+.claro .linhas li:last-child .linha{border-color:rgba(6,45,86,.14)}
+.claro .linha span{color:var(--texto-2)}
+.claro .linha strong{color:var(--noite)}
+.claro .linha .icone{background:rgba(6,45,86,.07);color:var(--noite)}
+
+footer{padding:28px var(--lado) calc(32px + env(safe-area-inset-bottom,0));color:var(--claro-2);font-size:.88rem;font-weight:300;line-height:1.6}
+footer p + p{margin-top:.6rem}
+footer a{color:var(--claro)}
+
+@media (hover:hover) and (pointer:fine){
+  .botao-ouro:hover{background:var(--ouro-2)}
+  .botao-linha:hover{background:rgba(242,245,248,.2)}
+  .linha:hover strong{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+}
+
+/* tela larga: a foto fica parada à esquerda e os links correm à direita */
+@media (min-width:960px){
+  body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,620px)}
+  .foto{position:sticky;top:0;height:100vh;height:100dvh}
+  .foto::after{background:linear-gradient(180deg,rgba(4,30,58,0) 50%,rgba(4,30,58,.78) 100%)}
+  .marca{bottom:48px;left:48px}
+  .marca img{height:56px}
+  .coluna{padding:40px 24px 0}
+  .claro{margin:36px 0 0;border-radius:20px;padding:28px 24px 32px}
+  main{padding-top:24px}
+}
+@media (prefers-reduced-motion:reduce){.botao,.linha{transition:none}}
+</style>
+</head>
+<body>
+<header class="foto">
+  <img class="espaco" src="img/leitura-vertical-1280.webp" srcset="img/leitura-vertical-640.webp 360w, img/leitura-vertical-1280.webp 720w, img/leitura-vertical-1920.webp 1080w" sizes="(min-width:960px) 50vw, 100vw" alt="Cantinho de leitura da Índigo Rei, com estantes de madeira iluminadas na parede azul" width="3944" height="7008" fetchpriority="high">
+  <div class="marca">
+    <a href="./" aria-label="Site da Índigo Rei"><img src="img/logo-claro-420.webp" alt="Índigo Rei" width="420" height="107"></a>
+    <p>Escola de inteligências em Brasília</p>
+  </div>
+</header>
+
+<div class="coluna">
+<main>
+  <section class="bloco" id="agora" aria-labelledby="t-agora">
+    <h2 id="t-agora">Agora na Índigo</h2>
+    <ul class="cartoes">
+      <li class="cartao" data-ate="2026-12-18">
+        <h3>Clube de Férias de dezembro</h3>
+        <p>O porquê das coisas? De 14 a 18 de dezembro, à tarde, para crianças de 3 a 12 anos, com experimentos, construções e muita mão na massa.</p>
+        <div class="acoes">
+          <a class="botao botao-ouro" href="https://cadastro.indigorei.com.br/clube" data-servico="Clube de dezembro">Fazer a inscrição</a>
+          <a class="botao botao-linha" href="https://wa.me/5561996038293" data-wa="Oi! Vi o Clube de Férias de dezembro no Instagram e quero saber mais." data-servico="Clube de dezembro"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Tirar dúvidas</a>
+        </div>
+      </li>
+      <li class="cartao" data-desde="2026-11-30" data-ate="2027-01-22">
+        <h3>Clube de Férias de janeiro</h3>
+        <p>Duas semanas de férias com investigação e brincadeira: de 11 a 15 e de 18 a 22 de janeiro.</p>
+        <div class="acoes">
+          <a class="botao botao-ouro" href="https://wa.me/5561996038293" data-wa="Oi! Vi o Clube de Férias de janeiro no Instagram e quero saber mais." data-servico="Clube de janeiro"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg>Quero saber do Clube</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="bloco" id="ano" aria-labelledby="t-ano">
+    <h2 id="t-ano">Para 2027</h2>
+    <ul class="linhas">
+      <li><a class="linha" href="https://wa.me/5561996038293" data-wa="Oi! Vi a Índigo no Instagram e quero saber das matrículas de 2027." data-servico="Matrículas 2027">
+        <div><strong>Matrículas 2027</strong><span>Um plano de estudos montado para cada criança, com a família e a escola junto.</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg></i></a></li>
+      <li><a class="linha" href="https://wa.me/5561996038293" data-wa="Oi! Vi a Índigo no Instagram e quero saber do Contraturno de 2027." data-servico="Contraturno">
+        <div><strong>Contraturno</strong><span>No turno oposto ao da escola: segunda, quarta e sexta à tarde e quinta de manhã.</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg></i></a></li>
+      <li><a class="linha" href="https://wa.me/5561996038293" data-wa="Oi! Vi a Índigo no Instagram e quero saber da avaliação diagnóstica de aprendizagem." data-servico="Avaliação diagnóstica">
+        <div><strong>Avaliação diagnóstica de aprendizagem</strong><span>Para entender como a criança aprende e por onde começar a ajudar.</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg></i></a></li>
+    </ul>
+  </section>
+
+  <section class="bloco claro" id="contato" aria-labelledby="t-contato">
+    <h2 id="t-contato">Fale com a gente</h2>
+    <ul class="linhas">
+      <li><a class="linha" href="https://wa.me/5561996038293" data-wa="Oi! Vi a Índigo no Instagram e quero conhecer o trabalho de vocês." data-servico="Conversa">
+        <div><strong>Conversar pelo WhatsApp</strong><span>(61) 99603-8293</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg></i></a></li>
+      <li><a class="linha" href="https://wa.me/5561996038293" data-wa="Oi! Vi a Índigo no Instagram e quero agendar uma visita ao espaço." data-servico="Visita">
+        <div><strong>Agendar uma visita ao espaço</strong><span>Asa Sul, Brasília</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41z"/></svg></i></a></li>
+      <li><a class="linha" href="https://indigorei.com.br/">
+        <div><strong>Conhecer a Índigo</strong><span>indigorei.com.br</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></i></a></li>
+      <li><a class="linha" href="https://www.google.com/maps/search/?api=1&amp;query=%C3%8Dndigo%20Rei%20SAUS%20Quadra%204%20Ed.%20Vict%C3%B3ria%20Office%20Tower%20Bras%C3%ADlia">
+        <div><strong>Como chegar</strong><span>SAUS Quadra 4, Ed. Victória Office Tower</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></i></a></li>
+      <li><a class="linha" href="https://cadastro.indigorei.com.br">
+        <div><strong>Cadastro da família</strong><span>Para quem vai começar com a gente</span></div>
+        <i class="icone" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></i></a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Educação Personalizada Índigo Rei. SAUS Quadra 4, Bloco A, Lote 9/10, Ed. Victória Office Tower, salas 733 a 737, Asa Sul, Brasília, DF.</p>
+  <p><a href="privacidade.html">Privacidade e cookies</a></p>
+</footer>
+</div>
+
+<script>
+(function () {
+  /* campanhas com data: somem sozinhas quando acabam e aparecem no dia certo (horário de Brasília) */
+  var hoje;
+  try { hoje = new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' }); }
+  catch (e) { hoje = new Date().toISOString().slice(0, 10); }
+  document.querySelectorAll('[data-desde],[data-ate]').forEach(function (el) {
+    var desde = el.getAttribute('data-desde'), ate = el.getAttribute('data-ate');
+    if ((desde && hoje < desde) || (ate && hoje > ate)) el.remove();
+  });
+  var agora = document.getElementById('agora');
+  if (agora && !agora.querySelector('.cartao')) agora.remove();
+
+  /* WhatsApp com mensagem pronta */
+  document.querySelectorAll('[data-wa]').forEach(function (a) {
+    a.href = 'https://wa.me/5561996038293?text=' + encodeURIComponent(a.getAttribute('data-wa'));
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+
+  /* contagem de cliques sem dado pessoal, a mesma do site */
+  var MEDICAO_URL = 'https://script.google.com/macros/s/AKfycbxW1pR5aP8xA7_2gnHQIqGgS-gLFifSCLPSS4fPupDQSUmudYQLr7fLQS5HKJF6XFxT/exec';
+  var VERSAO_SITE = '1';
+  var ORIGEM = (function () {
+    try {
+      var h = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, '') : '';
+      return h && h !== location.hostname ? h : 'direto';
+    } catch (e) { return 'direto'; }
+  })();
+  var APARELHO = (window.matchMedia('(pointer: coarse)').matches || /Mobi|Android|iPhone/.test(navigator.userAgent)) ? 'celular' : 'computador';
+  function contar(acao, servico) {
+    if (!/^https:\/\/script\.google\.com\//.test(MEDICAO_URL)) return;
+    var dados = { acao: acao, onde: 'links', servico: servico || '', aparelho: APARELHO, origem: ORIGEM, versao: VERSAO_SITE };
+    var q = Object.keys(dados).map(function (k) { return k + '=' + encodeURIComponent(dados[k]); }).join('&');
+    try { fetch(MEDICAO_URL + '?' + q, { mode: 'no-cors', credentials: 'omit', keepalive: true }).catch(function () {}); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var h = a.getAttribute('href'), s = a.getAttribute('data-servico') || '';
+    if (a.hasAttribute('data-wa')) contar('WhatsApp', s);
+    else if (/cadastro\.indigorei\.com\.br/.test(h)) contar('Cadastro da família', s);
+    else if (/google\.com\/maps/.test(h)) contar('Mapa', '');
+    else if (/indigorei\.com\.br\/?$/.test(h)) contar('Site', '');
+  }, true);
+})();
+</script>
+</body>
+</html>
